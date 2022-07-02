@@ -1,4 +1,10 @@
-import styles from "./Home.module.scss";
+import { Footer } from "../../Components";
 export default function Home() {
-  return <div className={styles.home}>Home</div>;
+  return (
+    <div>
+      <section>
+        <Footer />
+      </section>
+    </div>
+  );
 }

@@ -1,4 +1,4 @@
 import Card from "./Card";
 import Footer from "./Footer";
-
-export { Card, Footer };
+import Navbar from "./Navbar";
+export { Card, Footer, Navbar };

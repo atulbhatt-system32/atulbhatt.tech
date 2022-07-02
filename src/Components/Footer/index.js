@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  Facebook,
-  Instagram,
-  Twitter,
-  Linkedin,
-} from "../../Assets/images/footer";
+import { Facebook, Instagram, Twitter, Linkedin } from "../../Assets/images";
 const Footer = () => {
   return (
     <footer className="bg-midnight px-7 py-10 2xl:px-24 md:px-16 2xl:py-10 md:py-8   ">

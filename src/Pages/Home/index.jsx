@@ -1,10 +1,9 @@
-import { Footer } from "../../Components";
+import { Footer, Navbar } from "../../Components";
 export default function Home() {
   return (
     <div>
-      <section>
-        <Footer />
-      </section>
+      <Navbar />
+      <Footer />
     </div>
   );
 }

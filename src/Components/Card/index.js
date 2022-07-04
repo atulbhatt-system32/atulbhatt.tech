@@ -1,6 +1,7 @@
 import React from "react";
 
 const Card = (props) => {
-  return <div className="rounded-xl drop-shadow-2xl">{props.children}</div>;
+  const classes = props.className + " rounded-xl drop-shadow-2xl";
+  return <div className={classes}>{props.children}</div>;
 };
 export default Card;

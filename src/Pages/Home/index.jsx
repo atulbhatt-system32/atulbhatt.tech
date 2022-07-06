@@ -3,8 +3,8 @@ import Project from "./Sections";
 export default function Home() {
   return (
     <div>
-      <Project />
       <Navbar />
+      <Project />
       <Footer />
     </div>
   );

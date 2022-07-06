@@ -20,6 +20,11 @@ module.exports = {
       "project-card-dk-pink": "#c2005d",
       "project-card-dk-voilet": "#7b0570",
       "project-card-bg": "#4d46cf",
+      "black-normal": "#070724",
+      "gray-dark": "#AEAEAE",
+    },
+    fontFamily: {
+      body: ["'DM Sans'"],
     },
   },
   plugins: [],

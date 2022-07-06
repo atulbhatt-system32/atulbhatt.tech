@@ -1,3 +1,3 @@
 import Project from "./Project";
-
-export default Project;
+import Query from "./Query";
+export { Project, Query };

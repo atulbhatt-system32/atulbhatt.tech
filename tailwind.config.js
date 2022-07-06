@@ -22,6 +22,7 @@ module.exports = {
       "project-card-bg": "#4d46cf",
       "black-normal": "#070724",
       "gray-dark": "#AEAEAE",
+      "btn-color": "#2D69E7",
     },
     fontFamily: {
       body: ["'DM Sans'"],

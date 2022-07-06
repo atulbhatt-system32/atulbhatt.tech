@@ -1,7 +1,8 @@
 import React from "react";
 
 const Container = (props) => {
-  return <div className="xl:py-16 xl:px-20">{props.children}</div>;
+  const classes = props.className + " xl:py-16 xl:px-20";
+  return <div className={classes}>{props.children}</div>;
 };
 
 export default Container;

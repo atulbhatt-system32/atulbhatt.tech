@@ -4,5 +4,14 @@ import Twitter from "./footer/twitter.svg";
 import Linkedin from "./footer/linkedin.svg";
 import HamBurger from "./navbar/hamBurger.svg";
 import LightMode from "./navbar/lightMode.svg";
+import QueryImg from "./home/query.svg";
 
-export { HamBurger, LightMode, Facebook, Instagram, Twitter, Linkedin };
+export {
+  HamBurger,
+  LightMode,
+  Facebook,
+  Instagram,
+  Twitter,
+  Linkedin,
+  QueryImg,
+};

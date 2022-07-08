@@ -1,4 +1,4 @@
-import { Header, Footer, Navbar } from "../../Components";
+import { Footer, Navbar } from "../../Components";
 import { Project, Query, Requirement } from "./Sections";
 import IntroSection from "./IntroSection";
 import Skills from "./Skills";
@@ -8,7 +8,6 @@ export default function Home() {
     <div>
       <Navbar />
       <section>
-        <Header />
         <IntroSection />
         <Skills />
       </section>

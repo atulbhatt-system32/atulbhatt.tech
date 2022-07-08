@@ -18,7 +18,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      white: "#ffffff",
+      // white: "#ffffff",
       purple: "#3f3cbb",
       midnight: "#2B2B2B;",
       metal: "#565584",
@@ -36,9 +36,6 @@ module.exports = {
       "gray-dark": "#AEAEAE",
       "btn-color": "#2D69E7",
       "transparent-dark": "rgba(7, 7, 36, 0.12)",
-    },
-    fontFamily: {
-      body: ["'DM Sans'"],
       primary: {
         "blue-200": "#5454D4",
         "blue-500": "rgba(84, 84, 212, 1)",
@@ -55,6 +52,9 @@ module.exports = {
       black: {
         500: "#575559",
       },
+    },
+    fontFamily: {
+      body: ["'DM Sans'"],
     },
   },
   plugins: [],

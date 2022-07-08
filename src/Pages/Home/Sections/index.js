@@ -1,3 +1,4 @@
 import Project from "./Project";
 import Query from "./Query";
-export { Project, Query };
+import Requirement from "./Requirement";
+export { Project, Query, Requirement };

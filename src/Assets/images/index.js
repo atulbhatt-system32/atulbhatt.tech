@@ -5,6 +5,7 @@ import Linkedin from "./footer/linkedin.svg";
 import HamBurger from "./navbar/hamBurger.svg";
 import LightMode from "./navbar/lightMode.svg";
 import QueryImg from "./home/query.svg";
+import Cursor from "./home/cursor.svg";
 
 export {
   HamBurger,
@@ -14,4 +15,5 @@ export {
   Twitter,
   Linkedin,
   QueryImg,
+  Cursor,
 };

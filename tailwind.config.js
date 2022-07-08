@@ -23,9 +23,13 @@ module.exports = {
       "black-normal": "#070724",
       "gray-dark": "#AEAEAE",
       "btn-color": "#2D69E7",
+      "transparent-dark": "rgba(7, 7, 36, 0.12)",
     },
     fontFamily: {
       body: ["'DM Sans'"],
+    },
+    backgroundImage: {
+      "require-bg": "linear-gradient(90deg, #FFECD2 0%, #FCB69F 100%)",
     },
   },
   plugins: [],

@@ -28,9 +28,6 @@ module.exports = {
     fontFamily: {
       body: ["'DM Sans'"],
     },
-    backgroundImage: {
-      "require-bg": "linear-gradient(90deg, #FFECD2 0%, #FCB69F 100%)",
-    },
   },
   plugins: [],
 };

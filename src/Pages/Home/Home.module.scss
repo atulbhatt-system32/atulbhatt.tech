@@ -2,20 +2,40 @@
   font-size: large;
 }
 
-.title{
-  @apply text-32px font-bold text-white-900;
+.title {
+  @apply text-32px font-bold text-white-900 md:text-48px;
 }
-.sub_title{
-  @apply text-14px font-bold text-white-900 capitalize;
+.sub_title {
+  @apply text-14px font-bold text-white-900 capitalize md:text-20px;
 }
-.primary_button{
+.primary_button {
   @apply bg-primary-blue-200 rounded-md text-white-900 font-medium py-3 px-7;
 }
 
 //Intro Section Styles
-.introSection__wrap{
-  @apply flex flex-col justify-center items-center p-8 text-center bg-black-500  ;
-  .sub_title{
+.introSection__wrap {
+  @apply flex flex-col justify-center items-center p-8 text-center md:w-80 md:mx-auto;
+  .sub_title {
     @apply py-8;
   }
+  .sub_title {
+    @apply md:px-8;
+  }
+  .button_upper_text {
+    @apply text-12px text-white-900 opacity-70;
+  }
+}
+
+//skills section
+.Skills__wrap {
+  @apply flex flex-col mt-8;
+}
+.skills_horizontal_line {
+  border-top: 2px solid #ffffff;
+  width: 50%;
+  margin-right: 5px;
+  
+}
+.skills_sub_title{
+  @apply px-8 flex my-4 items-baseline text-12px font-normal text-gray-100  ;
 }

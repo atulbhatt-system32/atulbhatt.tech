@@ -8,6 +8,7 @@ export default function IntroSection() {
     <div className={styles.title}>Hi, i’m <span className='text-primary-blue-500'>Atul Bhatt</span></div>
     <div className={styles.title}>{strings.Intro_Section.title}</div>
     <div className={styles.sub_title}>{strings.Intro_Section.sub_title_dark}<span className='text-gray-200'>{strings.Intro_Section.sub_title_light}</span></div>
+    <div className={styles.button_upper_text}>Download Resume</div>
     <button className={styles.primary_button}>{strings.Intro_Section.button_text}</button>
     </div>
   )

@@ -34,8 +34,18 @@
   border-top: 2px solid #ffffff;
   width: 50%;
   margin-right: 5px;
-  
 }
-.skills_sub_title{
-  @apply px-8 flex my-4 items-baseline text-12px font-normal text-gray-100  ;
+.skills_sub_title {
+  @apply px-8 flex my-4 items-baseline text-12px font-normal text-gray-100;
+}
+
+//Experience styles
+.experience__wrap {
+  @apply p-4;
+  .experience_detail_body {
+    @apply py-4 border-t-2 border-b-2 border-white-900 flex my-4;
+    .experience_time {
+      @apply font-bold w-50%;
+    }
+  }
 }

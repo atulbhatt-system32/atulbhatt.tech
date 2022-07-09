@@ -6,10 +6,10 @@ const Project = () => {
       <Container>
         <div className="flex flex-col 2xl:gap-20 2xl:pb-16">
           <div className="flex flex-col 2xl:gap-8">
-            <div className="font-bold text-black-normal 2xl:text-5xl">
+            <div className="font-bold text-black-normal 2xl:text-48px">
               Projects
             </div>
-            <div className="flex items-center gap-1.5 font-normal 2xl:text-2xl">
+            <div className="flex items-center gap-1.5 font-normal 2xl:text-24px">
               <div className="border-t border-solid w-20 h-px"></div>
               <div className="text-gray-dark">
                 {" "}
@@ -17,7 +17,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap 2xl:text-3xl 2xl:font-medium 2xl:gap-16">
+          <div className="flex flex-wrap 2xl:text-3xl 2xl:text-32px 2xl:gap-16 font-medium">
             <Card className="min-w-[234px] min-h-[176px] p-6 text-project-card-lg-voilet flex flex-col items-center justify-center cursor-pointer">
               SourceBae
             </Card>
@@ -34,9 +34,9 @@ const Project = () => {
               Samadhan
             </Card>
             <Card className="min-w-[234px] min-h-[176px] p-6 bg-project-card-bg flex flex-col items-center justify-end cursor-pointer">
-              <div className="text-white flex flex-col items-center justify-center">
+              <div className="text-white-900 flex flex-col items-center justify-center">
                 <div>View All</div>
-                <div className="text-5xl">&rarr;</div>
+                <div>&rarr;</div>
               </div>
             </Card>
           </div>

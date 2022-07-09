@@ -14,11 +14,17 @@ module.exports = {
       "20px": "20px",
       "24px": "24px",
       "32px": "32px",
+      "40px": "40px",
+      "44px": "44px",
       "48px": "48px",
     },
     width: {
-      80: "80%",
+      "80%": "80%",
+      "30%": "30%",
+      "40%": "40%",
       "50%": "50%",
+      "60%": "60%",
+      "75%": "75%",
     },
     colors: {
       transparent: "transparent",
@@ -57,6 +63,9 @@ module.exports = {
       black: {
         500: "#575559",
       },
+    },
+    background: {
+      "linear-pink": "linear-gradient(90deg, #FFECD2 0%, #FCB69F 100%)",
     },
     fontFamily: {
       body: ["'DM Sans'"],

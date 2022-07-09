@@ -14,8 +14,9 @@ export default function Home() {
         <IntroSection />
         <Skills />
         <Experience />
-        <Technologies />
-        <Footer />
+        <div className="flex sm:hidden  ">
+          <Technologies />
+        </div>
       </section>
       <Project />
       <Requirement />

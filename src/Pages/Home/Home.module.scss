@@ -1,8 +1,8 @@
 .title {
-  @apply text-32px font-bold text-white-900 md:text-48px;
+  @apply text-32px font-bold text-white-900 sm:text-40px md:text-44px lg:text-48px;
 }
 .sub_title {
-  @apply text-14px font-bold text-white-900 capitalize md:text-20px;
+  @apply text-14px font-bold text-white-900 capitalize md:text-16px lg:text-20px;
 }
 .primary_button {
   @apply bg-primary-blue-200 rounded-md text-white-900 font-medium py-3 px-7;
@@ -10,7 +10,7 @@
 
 //Intro Section Styles
 .introSection__wrap {
-  @apply flex flex-col justify-center items-center p-8 text-center md:w-80 md:mx-auto;
+  @apply flex flex-col justify-center items-center p-8 text-center md:w-80% md:mx-auto;
   .sub_title {
     @apply py-8;
   }
@@ -28,31 +28,44 @@
   // background-image: url();
 }
 .skills_horizontal_line {
+  @apply w-50% lg:w-30%;
   border-top: 2px solid #ffffff;
-  width: 50%;
   margin-right: 5px;
 }
 .skills_sub_title {
-  @apply px-8 flex my-4 items-baseline text-12px font-normal text-gray-100;
+  @apply px-8  lg:pl-0 lg:pr-8 flex my-4 items-baseline text-12px md:text-20px lg:text-24px font-normal text-gray-100;
+  text-transform: capitalize;
 }
 
 //Experience styles
 .experience__wrap {
-  @apply p-4;
+  @apply p-4 sm:w-40% sm:pt-16;
+  .title {
+    @apply sm:font-medium text-32px;
+  }
   .experience_detail_body {
     @apply py-4 border-t-1.5 border-b-1.5  border-white-900 flex my-4;
     .experience_time {
-      @apply font-bold w-50%;
+      @apply font-bold w-50% lg:text-18px;
     }
   }
 }
 
 //Technologies styles
 .technologies__wrap {
-  @apply p-4;
+  @apply p-4 flex flex-col justify-center items-center;
   .technology {
     border-radius: 50%;
     width: 4rem;
     @apply border-primary-blue-200 border-1.5  h-16 justify-center items-center flex;
+  }
+}
+
+//Required styles
+.reuired__wrap {
+  @apply flex flex-col gap-8 justify-center items-center text-center text-black-normal;
+  background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
+  .title {
+    @apply font-bold text-black-normal capitalize lg:text-32px md:text-24px sm:text-20px;
   }
 }

@@ -23,7 +23,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      white: "#ffffff",
+      // white: "#ffffff",
       purple: "#3f3cbb",
       midnight: "#2B2B2B;",
       metal: "#565584",
@@ -31,6 +31,16 @@ module.exports = {
       silver: "#ecebff",
       "bubble-gum": "#ff77e9",
       bermuda: "#78dcca",
+      "project-card-lg-voilet": "#bc53ff",
+      "project-card-lg-blue": "#0092a9",
+      "project-card-dk-blue": "#3f2aff",
+      "project-card-dk-pink": "#c2005d",
+      "project-card-dk-voilet": "#7b0570",
+      "project-card-bg": "#4d46cf",
+      "black-normal": "#070724",
+      "gray-dark": "#AEAEAE",
+      "btn-color": "#2D69E7",
+      "transparent-dark": "rgba(7, 7, 36, 0.12)",
       primary: {
         "blue-200": "#5454D4",
         "blue-500": "rgba(84, 84, 212, 1)",
@@ -47,6 +57,9 @@ module.exports = {
       black: {
         500: "#575559",
       },
+    },
+    fontFamily: {
+      body: ["'DM Sans'"],
     },
   },
   plugins: [],

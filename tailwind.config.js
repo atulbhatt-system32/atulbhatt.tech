@@ -6,6 +6,7 @@ module.exports = {
     fontSize: {
       "12px": "12px",
       "14px": "14px",
+      "16px": "16px",
       "18px": "18px",
       "20px": "20px",
       "24px": "24px",
@@ -14,6 +15,7 @@ module.exports = {
     },
     width: {
       80: "80%",
+      "50%": "50%",
     },
     colors: {
       transparent: "transparent",

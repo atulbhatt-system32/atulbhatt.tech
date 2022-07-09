@@ -1,5 +1,5 @@
-import { Home, AboutUs } from "./Pages";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { Home, AboutUs, Blogs } from "./Pages";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "pure-react-carousel/dist/react-carousel.es.css";
 
 function App() {
@@ -7,8 +7,9 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/blogs" element={<Blogs />} />
         </Routes>
       </Router>
     </div>

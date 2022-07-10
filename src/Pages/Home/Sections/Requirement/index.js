@@ -13,7 +13,7 @@ const Requirement = () => {
         <div className="self-center rounded-md bg-transparent-dark">
           <button className="flex items-center gap-2.5 p-3">
             <img src={Cursor} alt="cursor" />
-            <div className="font-medium text-2xl ">Here</div>
+            <div className="font-medium text-2xl  ">Here</div>
           </button>
         </div>
       </Container>

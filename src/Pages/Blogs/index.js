@@ -1,9 +1,10 @@
 import React from "react";
-import Search from "./Sections/Search";
+import { Search, BlogCard } from "./Sections";
 const Blogs = () => {
   return (
     <section>
       <Search />
+      <BlogCard />
     </section>
   );
 };

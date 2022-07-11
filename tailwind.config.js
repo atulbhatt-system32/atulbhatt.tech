@@ -2,10 +2,6 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
-    borderWidth: {
-      1.5: "1.5px",
-    },
     fontSize: {
       "12px": "12px",
       "14px": "14px",
@@ -18,18 +14,9 @@ module.exports = {
       "44px": "44px",
       "48px": "48px",
     },
-    width: {
-      "80%": "80%",
-      "30%": "30%",
-      "40%": "40%",
-      "50%": "50%",
-      "60%": "60%",
-      "75%": "75%",
-    },
     colors: {
       transparent: "transparent",
       current: "currentColor",
-      // white: "#ffffff",
       purple: "#3f3cbb",
       midnight: "#2B2B2B;",
       metal: "#565584",
@@ -64,9 +51,29 @@ module.exports = {
         500: "#575559",
       },
     },
-    background: {
-      "linear-pink": "linear-gradient(90deg, #FFECD2 0%, #FCB69F 100%)",
+    extend: {
+      width: {
+        "80%": "80%",
+        "30%": "30%",
+        "40%": "40%",
+        "50%": "50%",
+        "60%": "60%",
+        "75%": "75%",
+        "95%": "95%",
+        "sidebar-large": "300px",
+        "sidebar-md": "265px",
+      },
+      height: {
+        "profile-ex-sm": "280px",
+        "profile-sm": "410px",
+        "profile-md": "480px",
+        "profile-lg": "650px",
+      },
     },
+    borderWidth: {
+      1.5: "1.5px",
+    },
+
     fontFamily: {
       body: ["'DM Sans'"],
     },

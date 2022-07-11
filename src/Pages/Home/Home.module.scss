@@ -24,8 +24,7 @@
 
 //skills section
 .Skills__wrap {
-  @apply flex flex-col mt-8;
-  // background-image: url();
+  @apply flex flex-col mt-8 justify-center w-80% sm:w-80% mx-auto mb-16;
 }
 .skills_horizontal_line {
   @apply w-50% lg:w-30%;
@@ -35,6 +34,10 @@
 .skills_sub_title {
   @apply px-8  lg:pl-0 lg:pr-8 flex my-4 items-baseline text-12px md:text-20px lg:text-24px font-normal text-gray-100;
   text-transform: capitalize;
+}
+.portfolio_wrap {
+  @apply mt-8 bg-no-repeat flex flex-col justify-center bg-center bg-contain h-profile-ex-sm sm:h-profile-sm md:h-profile-md lg:h-profile-lg mb-16 sm:border-b-1.5;
+  // height: 700px;
 }
 
 //Experience styles

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.scss";
-import { Image, Images } from "../../Images";
+import { Images } from "../../Images";
 import { BsArrowRight } from "react-icons/bs";
 
 const TECHNOLOGY = [
@@ -8,7 +8,7 @@ const TECHNOLOGY = [
   { text: "CSS", image: Images.css },
   { text: "React", image: Images.react },
   { text: "Git", image: Images.git },
-  { text: "JavaScript", image: Images.js },
+  { text: "JavaScript", image: Images.javascript },
 ];
 export default function Technologies() {
   return (
@@ -16,7 +16,9 @@ export default function Technologies() {
       {TECHNOLOGY.map((item) => {
         return (
           <div className={styles.technologies__wrap}>
-            <div className={styles.technology}>image</div>
+            <div className={styles.technology}>
+              <img src={item.image} alt="" />
+            </div>
             <h1>{item.text}</h1>
           </div>
         );

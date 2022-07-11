@@ -1,3 +1,54 @@
-.about_us {
-  font-size: large;
+.title {
+  @apply text-32px font-bold text-white-900 sm:text-40px md:text-44px lg:text-48px;
+}
+.sub_title {
+  @apply text-14px font-bold text-white-900 capitalize md:text-16px lg:text-20px;
+}
+.primary_button {
+  @apply bg-primary-blue-200 rounded-md text-white-900 font-medium py-3 px-7;
+}
+
+//hero section styles
+.herosection__wrap {
+  @apply p-4 pb-8 pl-0;
+  .page_title {
+    @apply text-32px opacity-50 font-bold pb-4 md:pb-8  pl-4;
+  }
+  .herosection_main_body {
+    @apply flex;
+    .herosection_image_body {
+      @apply flex w-2/5;
+    }
+    .herosection_detail_body {
+      @apply flex flex-col w-3/5 px-4 justify-center items-center sm:items-start md:pl-6;
+      .line {
+        @apply w-full sm:w-50% md:w-40% lg:w-30% h-1 bg-white-900 sm:mb-4;
+      }
+      .detail_title {
+        @apply text-24px sm:text-32px  md:text-44px lg:text-48px lg:w-80% font-bold;
+      }
+    }
+  }
+}
+
+// quote section styles
+.quotesection__wrap {
+  @apply px-4 py-8;
+  .quote_body {
+    @apply flex relative;
+    .quote {
+      @apply w-80% md:w-10/12 h-quote-ex-sm md:h-quote-md items-center flex sm:mx-8;
+      background: linear-gradient(
+        101.03deg,
+        #d9d9d9 2.38%,
+        rgba(217, 217, 217, 0) 107.53%
+      );
+      h1 {
+        @apply capitalize text-black-normal font-normal text-16px sm:text-18px p-4 w-80%;
+      }
+    }
+    .quote_banner {
+      @apply absolute -right-5 sm:right-0 bottom-0;
+    }
+  }
 }

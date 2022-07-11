@@ -68,6 +68,8 @@ module.exports = {
         "profile-sm": "410px",
         "profile-md": "480px",
         "profile-lg": "650px",
+        "quote-ex-sm": "250px",
+        "quote-md": "290px",
       },
     },
     borderWidth: {

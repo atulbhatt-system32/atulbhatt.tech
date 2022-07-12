@@ -73,6 +73,7 @@
   }
 }
 
+<<<<<<< HEAD
 // Projects:
 
 .project {
@@ -101,3 +102,13 @@
 }
 
 // " bg-project-card-bg 2xl:justify-end"
+=======
+//social links styles
+.SocialLinks__wrap {
+  @apply hidden lg:flex -rotate-90  absolute top-40 left-0 h-3/5 w-2/6;
+  h1 {
+    @apply px-2 text-24px font-medium opacity-50;
+  }
+}
+
+>>>>>>> e89d8efb42cc719c5d0acf5fc9d194264e3e32ad

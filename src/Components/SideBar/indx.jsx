@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "./Styles.module.scss";
 import { AiOutlineClose } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 
 export default function SideBar({ fun }) {
+  const navigate = useNavigate();
   return (
     <div
       className={styles.sidebar__wrap}
@@ -21,7 +23,7 @@ export default function SideBar({ fun }) {
         <div>Skills</div>
         <div>Projects</div>
         <div>Content</div>
-        <div>About Me</div>
+        <div onClick={() => navigate("/about-us")}>About Me</div>
       </div>
       <div>
         <button className={styles.siderbar_button}>Resume</button>

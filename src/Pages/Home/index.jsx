@@ -5,12 +5,14 @@ import Experience from "./Experience";
 import IntroSection from "./IntroSection";
 import Skills from "./Skills";
 import Technologies from "./Technologies";
+import SocialLinks from "./SocialLinks";
 export default function Home() {
   return (
     <div>
       {/* <Navbar /> */}
       <section>
         <Header />
+        <SocialLinks />
         <IntroSection />
         <Skills />
         <Experience />

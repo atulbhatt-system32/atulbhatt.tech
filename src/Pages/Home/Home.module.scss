@@ -73,4 +73,11 @@
   }
 }
 
-// Footer:
+//social links styles
+.SocialLinks__wrap {
+  @apply hidden lg:flex -rotate-90  absolute top-40 left-0 h-3/5 w-2/6;
+  h1 {
+    @apply px-2 text-24px font-medium opacity-50;
+  }
+}
+

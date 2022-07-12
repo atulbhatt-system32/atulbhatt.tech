@@ -4,6 +4,8 @@ import react from "../Assets/images/techIcons/react.svg";
 import git from "../Assets/images/techIcons/git.svg";
 import javascript from "../Assets/images/techIcons/JAVAS.svg";
 import porfolioImage from "../Assets/images/home/ProfileImage.svg";
+import aboutHeroSection from "../Assets/images/aboutus/herosection.png";
+import quoteBanner from "../Assets/images/aboutus/quoteBanner.png";
 
 export const Images = {
   html,
@@ -12,4 +14,6 @@ export const Images = {
   git,
   javascript,
   porfolioImage,
+  aboutHeroSection,
+  quoteBanner,
 };

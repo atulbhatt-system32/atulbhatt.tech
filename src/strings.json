@@ -9,5 +9,16 @@
         "title1": "Skills & ",
         "title2": "Experince",
         "sub_title": "😎 A specialist in frontend design. ✨ a passion of mine is development and solving problem through my skill"
+    },
+    "social_Link": {
+        "instagram": "Instagram",
+        "github": "Github",
+        "linkedin": "Linkedin"
+    },
+    "about_us_hero_section": {
+        "title": "i’m come from Devbhumi well known as Uttrakhand."
+    },
+    "quote_section": {
+        "quote": "i’m atul also know as “ tum apne aap ko developer khte ho” Quote  maker."
     }
 }

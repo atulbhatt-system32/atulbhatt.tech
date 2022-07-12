@@ -69,3 +69,17 @@
     }
   }
 }
+
+// Gallery styles
+.gallery__wrap {
+  @apply flex p-4 pr-0 pb-32;
+  .gallery_img_body {
+    @apply flex overflow-scroll lg:justify-center;
+    img {
+      @apply m-2 lg:m-3 w-2/6 lg:w-1/5;
+    }
+  }
+}
+.gallery_img_body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

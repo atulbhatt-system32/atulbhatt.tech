@@ -1,0 +1,21 @@
+.footer {
+  @apply bg-midnight px-7 py-10 md:px-16 md:py-8 2xl:px-24 2xl:py-10;
+  .footer__wrap {
+    @apply text-white-900 border-b border-solid border-white-900 pb-6 flex flex-col gap-4;
+    .footer_contact {
+      @apply flex flex-col gap-6 pb-9;
+      .footer_contact_head {
+        @apply opacity-90 font-bold text-32px;
+      }
+      .footer_contact_body {
+        @apply flex flex-col gap-2 font-normal opacity-60 text-16px sm:text-18px md:text-20px;
+      }
+    }
+    .footer_social {
+      @apply flex gap-5 md:gap-8;
+    }
+    .footer_legal {
+      @apply font-normal opacity-60 text-16px sm:text-18px md:text-20px;
+    }
+  }
+}

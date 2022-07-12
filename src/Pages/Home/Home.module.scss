@@ -95,7 +95,7 @@
   .project_body {
     @apply flex flex-wrap justify-center gap-6 text-24px 2xl:text-32px 2xl:gap-16 font-medium;
     .project_card {
-      @apply bg-black-100 min-w-[234px] min-h-[176px] p-6 flex flex-col items-center justify-center cursor-pointer;
+      // @apply bg-black-100 min-w-[234px] min-h-[176px] p-6 flex flex-col items-center justify-center;
     }
   }
 }

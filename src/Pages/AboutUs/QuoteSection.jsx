@@ -10,7 +10,16 @@ export default function QuoteSection() {
         <div className={styles.quote}>
           <h1>{strings.quote_section.quote}</h1>
         </div>
-        <img src={Images.quoteBanner} className={styles.quote_banner} alt="" />
+        <img
+          src={Images.quoteBanner}
+          className={`${styles.quote_banner} lg:hidden`}
+          alt=""
+        />
+        <img
+          src={Images.quoteBannerWeb}
+          className={styles.web_quote_banner}
+          alt=""
+        />
       </div>
     </div>
   );

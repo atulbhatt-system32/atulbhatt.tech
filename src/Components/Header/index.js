@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
 import DarkMode from "../DarkMode";
 import SideBar from "../SideBar/indx";
 
 export default function Header() {
+  const navigate = useNavigate();
   const [showMenu, setShowMenu] = useState(false);
   const handleMenu = () => {
     setShowMenu(!showMenu);
@@ -17,7 +19,12 @@ export default function Header() {
           "linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), #222222",
       }}
     >
-      <div className="font-semibold flex text-24 ">Logo</div>
+      <div
+        className="font-semibold flex text-24 cursor-pointer "
+        onClick={() => navigate("/")}
+      >
+        Logo
+      </div>
       <div className="flex">
         <DarkMode />
         <AiOutlineMenu

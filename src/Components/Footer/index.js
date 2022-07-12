@@ -18,7 +18,7 @@ const Footer = () => {
           <img src={Facebook} alt="Facebook" />
           <img src={Instagram} alt="Instagram" />
           <img src={Twitter} alt="Twitter" />
-          <img src={Linkedin} alt="Linkedin" />
+          <img src={Linkedin} alt="LinkedIn" />
         </div>
         {/* COPYRIGHT */}
         <div className={styles.footer_legal}>

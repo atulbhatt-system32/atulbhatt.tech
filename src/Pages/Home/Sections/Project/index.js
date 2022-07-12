@@ -1,39 +1,42 @@
 import React from "react";
+import styles from "../../Home.module.scss";
 import { Container, Card } from "../../../../Components";
 const Project = () => {
   return (
-    <section>
+    <section className="bg-black-200">
       <Container>
-        <div className="flex flex-col gap-10 2xl:gap-20 2xl:pb-16">
-          <div className="flex flex-col gap-4 2xl:gap-8">
-            <div className="font-bold text-black-normal text-32px 2xl:text-48px">
-              Projects
-            </div>
-            <div className="flex items-center gap-1.5 font-normal text-12px 2xl:text-24px">
-              <div className="border-t border-solid w-20 h-px"></div>
-              <div className="text-gray-dark">
-                {" "}
+        <div className={styles.project}>
+          <div className={styles.project_head}>
+            <div className={styles.project_title}>Projects</div>
+            <div className={styles.project_subtitle}>
+              <div className={styles.project_subtitle_line}></div>
+              <div className={styles.project_subtitle_text}>
                 I'm Proudly Work For Some Of Best Projects
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center gap-6 2xl:text-3xl text-24px 2xl:text-32px 2xl:gap-16 font-medium">
-            <Card className="min-w-[234px] min-h-[176px] p-6 text-project-card-lg-voilet flex flex-col items-center justify-center cursor-pointer">
-              SourceBae
+          <div className={styles.project_body}>
+            <Card className={styles.project_card}>
+              <span className="text-project-card-lg-voilet">SourceBae</span>
             </Card>
-            <Card className="min-w-[234px] min-h-[176px] p-6 text-project-card-lg-blue flex flex-col items-center justify-center cursor-pointer">
-              Rene CSS
+            <Card className={styles.project_card}>
+              <span className="text-project-card-lg-blue">Rene CSS</span>
             </Card>
-            <Card className="min-w-[234px] min-h-[176px] p-6 text-project-card-dk-blue flex flex-col items-center justify-center cursor-pointer">
-              Vital
+            <Card className={styles.project_card}>
+              <span className="text-project-card-dk-blue">Vital</span>
             </Card>
-            <Card className="min-w-[234px] min-h-[176px] p-6 text-project-card-dk-pink flex flex-col items-center justify-center cursor-pointer">
-              Tealbox digital
+            <Card className={styles.project_card}>
+              <span className="text-project-card-dk-pink">Tealbox digital</span>
             </Card>
-            <Card className="min-w-[234px] min-h-[176px] p-6 text-project-card-dk-voilet flex flex-col items-center justify-center cursor-pointer">
-              Samadhan
+            <Card className={styles.project_card}>
+              <span className="text-project-card-dk-voilet">Samadhan</span>
             </Card>
-            <Card className="min-w-[234px] min-h-[176px] p-6 bg-project-card-bg flex flex-col items-center justify-center 2xl:justify-end cursor-pointer">
+            <Card
+              className={[
+                styles.project_card,
+                "bg-project-card-bg 2xl:justify-end",
+              ].join(" ")}
+            >
               <div className="text-white-900 flex flex-col items-center justify-center">
                 <div>View All</div>
                 <div>&rarr;</div>

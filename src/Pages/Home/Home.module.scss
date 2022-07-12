@@ -72,3 +72,32 @@
     @apply font-bold text-black-normal capitalize lg:text-32px md:text-24px sm:text-20px;
   }
 }
+
+// Projects:
+
+.project {
+  @apply flex flex-col gap-10 2xl:gap-20 2xl:pb-16;
+  .project_head {
+    @apply flex flex-col gap-4 2xl:gap-8;
+    .project_title {
+      @apply font-bold text-white-900 text-32px 2xl:text-48px;
+      .project_subtitle {
+        @apply flex items-center gap-1.5 font-normal text-12px 2xl:text-24px;
+        .project_subtitle_line {
+          @apply text-white-900;
+        }
+        .project_subtitle_text {
+          @apply text-gray-100;
+        }
+      }
+    }
+  }
+  .project_body {
+    @apply flex flex-wrap justify-center gap-6 text-24px 2xl:text-32px 2xl:gap-16 font-medium;
+    .project_card {
+      @apply bg-black-100 min-w-[234px] min-h-[176px] p-6 flex flex-col items-center justify-center cursor-pointer;
+    }
+  }
+}
+
+// " bg-project-card-bg 2xl:justify-end"

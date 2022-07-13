@@ -72,6 +72,7 @@ module.exports = {
         "profile-lg": "650px",
         "quote-ex-sm": "250px",
         "quote-md": "290px",
+        "quote-large": "470px",
       },
     },
     borderWidth: {

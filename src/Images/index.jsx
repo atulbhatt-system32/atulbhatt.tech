@@ -6,6 +6,11 @@ import javascript from "../Assets/images/techIcons/JAVAS.svg";
 import porfolioImage from "../Assets/images/home/ProfileImage.svg";
 import aboutHeroSection from "../Assets/images/aboutus/herosection.png";
 import quoteBanner from "../Assets/images/aboutus/quoteBanner.png";
+import quoteBannerWeb from "../Assets/images/aboutus/web-porfolio.png";
+import descImage1 from "../Assets/images/aboutus/harrypoter.png";
+import galleryImg1 from "../Assets/images/aboutus/gallery-1.png";
+import galleryImg2 from "../Assets/images/aboutus/gallery-2.png";
+import galleryImg3 from "../Assets/images/aboutus/gallery-3.png";
 
 export const Images = {
   html,
@@ -16,4 +21,9 @@ export const Images = {
   porfolioImage,
   aboutHeroSection,
   quoteBanner,
+  quoteBannerWeb,
+  descImage1,
+  galleryImg1,
+  galleryImg2,
+  galleryImg3,
 };

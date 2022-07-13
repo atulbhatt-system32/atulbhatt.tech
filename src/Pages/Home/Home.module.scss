@@ -108,3 +108,33 @@
     @apply px-2 text-24px font-medium opacity-50;
   }
 }
+
+//QUERY SECTION:
+.query {
+  .query__wrap {
+    @apply flex flex-col 2xl:flex-row-reverse 2xl:justify-between;
+    .query_media {
+    }
+    .query_content {
+      @apply flex flex-col justify-between;
+      .query_title {
+        @apply font-bold text-white-900 capitalize text-32px;
+      }
+      .query_body {
+        @apply flex items-center gap-3 font-normal;
+        .query_hr {
+          @apply border-1.5 border-solid w-28 h-px;
+        }
+        .query_body_text {
+          @apply text-gray-dark capitalize text-12px;
+        }
+      }
+      .query_btn_wrap {
+        @apply font-medium;
+        .query_btn {
+          @apply py-3 px-8;
+        }
+      }
+    }
+  }
+}

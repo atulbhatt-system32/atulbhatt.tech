@@ -51,6 +51,7 @@ module.exports = {
         100: "#1B1B1B",
         200: "#222222",
         500: "#575559",
+        50: "#2C2C2C",
       },
     },
     extend: {
@@ -73,6 +74,9 @@ module.exports = {
         "quote-ex-sm": "250px",
         "quote-md": "290px",
         "quote-large": "470px",
+        "podcast-banner": "160px",
+        "podcast-banner-sm": "300px",
+        "podcast-banner-lg": "388px",
       },
     },
     borderWidth: {

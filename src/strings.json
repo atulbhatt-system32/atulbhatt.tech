@@ -24,5 +24,13 @@
     "description_with_image": {
         "first_description": "development for me is like oxygen ",
         "second_description": "but apart from this i’m fitness  enthusia and mallu photographer"
+    },
+    "content_tabs": {
+        "blog": "Blog",
+        "videos": "Videos",
+        "podcast": "Podcast"
+    },
+    "search_title": {
+        "title": "Search Blog"
     }
 }

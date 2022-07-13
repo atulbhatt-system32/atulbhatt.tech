@@ -1,0 +1,35 @@
+.content_tab_section {
+  @apply p-4 flex justify-around;
+  .tab {
+    @apply font-bold text-24px md:text-32px;
+  }
+}
+.content_search_section {
+  @apply p-4;
+  .search_body {
+    @apply w-11/12 flex flex-col p-4 bg-black-50 rounded;
+    span {
+      @apply font-bold text-14px sm:text-18px pb-2;
+    }
+    input {
+      @apply w-80% bg-white-900 rounded px-4 py-2 text-12px sm:text-16px font-normal text-black-normal;
+    }
+  }
+}
+
+//podcast styles
+.podcast__wrap {
+  @apply my-4;
+  .podcast_banner {
+    @apply w-full;
+    img {
+      @apply h-podcast-banner sm:h-podcast-banner-sm md:h-podcast-banner-lg;
+    }
+    .banner_mobile {
+      @apply sm:hidden;
+    }
+    .banner_web {
+      @apply sm:flex hidden;
+    }
+  }
+}

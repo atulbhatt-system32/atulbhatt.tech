@@ -11,6 +11,7 @@ import descImage1 from "../Assets/images/aboutus/harrypoter.png";
 import galleryImg1 from "../Assets/images/aboutus/gallery-1.png";
 import galleryImg2 from "../Assets/images/aboutus/gallery-2.png";
 import galleryImg3 from "../Assets/images/aboutus/gallery-3.png";
+import whiteArrow from "../Assets/images/aboutus/white-arrow.svg";
 
 export const Images = {
   html,
@@ -26,4 +27,5 @@ export const Images = {
   galleryImg1,
   galleryImg2,
   galleryImg3,
+  whiteArrow,
 };

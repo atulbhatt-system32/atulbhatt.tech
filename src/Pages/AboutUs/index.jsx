@@ -12,6 +12,7 @@ export default function AboutUs() {
       <HeroSection />
       <QuoteSection />
       <DescriptionWithImage />
+
       <Gallery />
       <Footer />
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Search, BlogCard } from "./Sections/index";
+import { Search, BlogCard } from "./Sections";
 const Blogs = () => {
   return (
     <section>

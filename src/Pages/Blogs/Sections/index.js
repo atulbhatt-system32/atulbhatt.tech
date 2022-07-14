@@ -1,4 +1,4 @@
-import Search from "./Search/index";
-import BlogCard from "./BlogCard/index";
+import Search from "./Search";
+import BlogCard from "./BlogCard";
 
 export { Search, BlogCard };

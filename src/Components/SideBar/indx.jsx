@@ -22,7 +22,7 @@ export default function SideBar({ fun }) {
       <div className={styles.sidebar_menu}>
         <div>Skills</div>
         <div>Projects</div>
-        <div>Content</div>
+        <div onClick={() => navigate("/content")}>Content</div>
         <div onClick={() => navigate("/about-us")}>About Me</div>
       </div>
       <div>

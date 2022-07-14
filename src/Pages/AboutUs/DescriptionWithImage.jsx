@@ -14,8 +14,13 @@ export default function DescriptionWithImage() {
         </p>
       </div>
       <div className={`${styles.about_div} lg:justify-end lg:items-end `}>
-        <p className={`${styles.description} pr-4 pl-0 lg:relative lg:top-20 `}>
+        <p
+          className={`${styles.description} pr-4 pl-0 relative lg:top-40 md:top-32 sm:top-32 top-20 flex flex-col  `}
+          style={{ alignItems: "center" }}
+        >
           {strings.description_with_image.second_description}
+          <img src={Images.whiteArrow} alt="" />
+
           {/* <BsArrowDown className="flex " /> */}
         </p>
         <img src={Images.descImage1} alt="" />

@@ -66,6 +66,9 @@
     }
     .description {
       @apply flex items-end w-50% lg:w-40%  pl-4 capitalize text-16px sm:text-18px md:text-24px lg:text-32px font-bold;
+      img {
+        @apply lg:w-12 md:w-10 sm:w-8 w-4;
+      }
     }
   }
 }

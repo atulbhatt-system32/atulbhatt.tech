@@ -20,5 +20,17 @@
     },
     "quote_section": {
         "quote": "i’m atul also know as “ tum apne aap ko developer khte ho” Quote  maker."
+    },
+    "description_with_image": {
+        "first_description": "development for me is like oxygen ",
+        "second_description": "but apart from this i’m fitness  enthusia and mallu photographer"
+    },
+    "content_tabs": {
+        "blog": "Blog",
+        "videos": "Videos",
+        "podcast": "Podcast"
+    },
+    "search_title": {
+        "title": "Search Blog"
     }
 }

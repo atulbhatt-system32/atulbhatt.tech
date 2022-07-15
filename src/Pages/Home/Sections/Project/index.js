@@ -16,25 +16,25 @@ const Project = () => {
             </div>
           </div>
           <div className={styles.project_body}>
-            <Card className={styles.project_card}>
+            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
               <span className="text-project-card-lg-voilet">SourceBae</span>
             </Card>
-            <Card className={styles.project_card}>
+            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
               <span className="text-project-card-lg-blue">Rene CSS</span>
             </Card>
-            <Card className={styles.project_card}>
+            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
               <span className="text-project-card-dk-blue">Vital</span>
             </Card>
-            <Card className={styles.project_card}>
+            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
               <span className="text-project-card-dk-pink">Tealbox digital</span>
             </Card>
-            <Card className={styles.project_card}>
+            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
               <span className="text-project-card-dk-voilet">Samadhan</span>
             </Card>
             <Card
               className={[
-                styles.project_card,
                 "bg-project-card-bg 2xl:justify-end",
+                styles.project_card,
               ].join(" ")}
             >
               <div className="text-white-900 flex flex-col items-center justify-center">

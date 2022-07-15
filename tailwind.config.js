@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    minHeight: {
+      "176px": "176px",
+    },
+    minWidth: {
+      "234px": "234px",
+    },
     maxWidth: {
       "360px": "360px",
       "520px": "520px",

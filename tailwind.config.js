@@ -2,6 +2,10 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    maxWidth: {
+      "360px": "360px",
+      "520px": "520px",
+    },
     fontSize: {
       "12px": "12px",
       "14px": "14px",
@@ -55,16 +59,25 @@ module.exports = {
       },
     },
     extend: {
+      spacing: {
+        "5px": "5px",
+        "144px": "144px",
+        "120px": "120px",
+      },
       width: {
         "80%": "80%",
+        "20%": "20%",
         "30%": "30%",
         "40%": "40%",
         "50%": "50%",
         "60%": "60%",
+        "65%": "65%",
         "75%": "75%",
         "95%": "95%",
+        "100%": "100%",
         "sidebar-large": "300px",
         "sidebar-md": "265px",
+        "footer-title-xl": "360px",
       },
       height: {
         "profile-ex-sm": "280px",
@@ -80,6 +93,8 @@ module.exports = {
       },
     },
     borderWidth: {
+      0.5: "0.5px",
+      1: "1px",
       1.5: "1.5px",
     },
 

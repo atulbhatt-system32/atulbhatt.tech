@@ -5,7 +5,7 @@ import styles from "../../Home.module.scss";
 const Requirement = () => {
   return (
     <section>
-      <Container className={` ${styles.reuired__wrap}`}>
+      <Container className={` ${styles.required__wrap}`}>
         <div className={styles.title}>
           Do you have a project that you want to be done? Check out if my skills
           matches your requirements

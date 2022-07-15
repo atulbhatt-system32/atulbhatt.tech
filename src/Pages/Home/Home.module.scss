@@ -80,27 +80,26 @@
   .project_head {
     @apply flex flex-col gap-4 2xl:gap-8;
     .project_title {
-      @apply font-bold text-white-900 text-32px 2xl:text-48px;
-      .project_subtitle {
-        @apply flex items-center gap-1.5 font-normal text-12px 2xl:text-24px;
-        .project_subtitle_line {
-          @apply text-white-900;
-        }
-        .project_subtitle_text {
-          @apply text-gray-100;
-        }
+      @apply font-bold text-white-900 text-32px md:pl-32 xl:pl-0 2xl:text-48px;
+    }
+    .project_subtitle {
+      @apply flex items-center gap-1.5 font-normal text-12px md:pl-32 xl:pl-0 md:text-14px lg:text-16px xl:text-18px 2xl:text-24px;
+      .project_subtitle_line {
+        @apply border-1 border-white-900 border-solid w-20% mb-2 md:w-15% md:mb-0.5 lg:w-12% xl:w-5%;
+      }
+      .project_subtitle_text {
+        @apply text-gray-100 max-w-200px md:max-w-none;
       }
     }
   }
   .project_body {
-    @apply flex flex-wrap justify-center gap-6 text-24px 2xl:text-32px 2xl:gap-16 font-medium;
-    // .project_card {
-    // @apply bg-black-100 min-w-[234px] min-h-[176px] p-6 flex flex-col items-center justify-center;
-    // }
+    @apply flex flex-wrap justify-center gap-6 text-24px xl:justify-start 2xl:text-32px 2xl:gap-16 font-medium;
+    .project_card {
+      @apply min-w-234px min-h-176px p-6 flex flex-col items-center justify-center;
+    }
   }
 }
 
-// " bg-project-card-bg 2xl:justify-end"
 //social links styles
 .SocialLinks__wrap {
   @apply hidden lg:flex -rotate-90  absolute top-40 left-0 h-3/5 w-2/6;

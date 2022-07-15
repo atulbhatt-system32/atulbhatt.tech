@@ -66,10 +66,19 @@
 
 //Required styles
 .required__wrap {
-  @apply flex flex-col gap-8 justify-center items-center text-center text-black-normal;
+  @apply flex flex-col /*gap-8*/ gap-16 justify-center items-center text-center text-black-normal;
   background: linear-gradient(90deg, #ffecd2 0%, #fcb69f 100%);
   .title {
-    @apply font-bold text-black-normal capitalize lg:text-32px md:text-24px sm:text-20px;
+    @apply font-bold text-black-normal pt-16 capitalize text-24px lg:text-32px md:text-24px sm:text-20px;
+  }
+  .btn__wrap {
+    @apply self-center rounded-md bg-transparent-dark mb-8;
+    .btn {
+      @apply flex items-center gap-2.5 p-3;
+      .btn_text {
+        @apply font-medium text-24px;
+      }
+    }
   }
 }
 

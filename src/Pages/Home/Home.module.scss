@@ -132,7 +132,7 @@
         }
 
         .query_btn_wrap_desktop {
-          @apply font-medium hidden md:flex md:self-start md:ml-[144px] xl:ml-[120px];
+          @apply font-medium hidden md:flex md:self-start /*md:ml-[144px] xl:ml-[120px]*/;
           .query_desktop_btn {
             @apply py-3 px-8;
           }

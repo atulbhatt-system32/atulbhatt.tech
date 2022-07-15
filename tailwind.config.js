@@ -9,6 +9,7 @@ module.exports = {
       "234px": "234px",
     },
     maxWidth: {
+      none: "none",
       "200px": "200px",
       "360px": "360px",
       "520px": "520px",
@@ -72,6 +73,7 @@ module.exports = {
         "120px": "120px",
       },
       width: {
+        "15%": "15%",
         "80%": "80%",
         "20%": "20%",
         "30%": "30%",

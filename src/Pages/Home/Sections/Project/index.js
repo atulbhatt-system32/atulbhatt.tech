@@ -6,6 +6,7 @@ const Project = () => {
     <section className="bg-black-200">
       <Container>
         <div className={styles.project}>
+          {/* PROJECT HEAD */}
           <div className={styles.project_head}>
             <div className={styles.project_title}>Projects</div>
             <div className={styles.project_subtitle}>
@@ -15,6 +16,7 @@ const Project = () => {
               </div>
             </div>
           </div>
+          {/* PROJECT BODY */}
           <div className={styles.project_body}>
             <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
               <span className="text-project-card-lg-voilet">SourceBae</span>

@@ -81,14 +81,14 @@
     @apply flex flex-col gap-4 2xl:gap-8;
     .project_title {
       @apply font-bold text-white-900 text-32px 2xl:text-48px;
-      .project_subtitle {
-        @apply flex items-center gap-1.5 font-normal text-12px 2xl:text-24px;
-        .project_subtitle_line {
-          @apply text-white-900;
-        }
-        .project_subtitle_text {
-          @apply text-gray-100;
-        }
+    }
+    .project_subtitle {
+      @apply flex items-center gap-1.5 font-normal text-12px 2xl:text-24px;
+      .project_subtitle_line {
+        @apply border-1 border-white-900 border-solid w-20% mb-2;
+      }
+      .project_subtitle_text {
+        @apply text-gray-100 max-w-200px;
       }
     }
   }

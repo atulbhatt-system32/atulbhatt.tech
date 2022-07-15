@@ -141,18 +141,18 @@
           }
         }
       }
-      .query_media {
-        @apply pt-6 flex justify-center items-center xl:pt-0;
-        img {
-          @apply w-75% xl:w-95%;
-        }
-      }
-      .query_btn_wrap_mobile {
-        @apply font-medium self-center pt-8 md:hidden;
-        .query_btn {
-          @apply py-3 px-8;
-        }
-      }
+      // .query_media {
+      //   @apply pt-6 flex justify-center items-center xl:pt-0;
+      //   img {
+      //     @apply w-75% xl:w-95%;
+      //   }
+      // }
+      // .query_btn_wrap_mobile {
+      //   @apply font-medium self-center pt-8 md:hidden;
+      //   .query_btn {
+      //     @apply py-3 px-8;
+      //   }
+      // }
     }
   }
 }

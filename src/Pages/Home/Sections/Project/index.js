@@ -39,7 +39,7 @@ const Project = () => {
                 styles.project_card,
               ].join(" ")}
             >
-              <div className="text-white-900 flex flex-col items-center justify-center">
+              <div className="text-white-900 flex flex-col items-center justify-center pt-8">
                 <div>View All</div>
                 <div>&rarr;</div>
               </div>

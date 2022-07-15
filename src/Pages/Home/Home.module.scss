@@ -123,11 +123,11 @@
         .query_body_text__wrap {
           @apply flex gap-4 md:pb-2 xl:pb-4;
           .query_hr {
-            @apply border-0.5 w-65% border-solid self-start mt-5 /*md:w-50% xl:w-30%*/;
+            @apply border-0.5 w-65% border-solid self-start mt-5 md:w-50% xl:w-30%;
           }
 
           .query_body_text {
-            @apply text-gray-dark capitalize text-12px /*md:text-14px xl:text-16px xl:max-w-520px*/;
+            @apply text-gray-dark capitalize text-12px md:text-14px xl:text-16px xl:max-w-520px;
           }
         }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./AboutUs.module.scss";
-import strings from "../../strings.json";
+import { pagesStrings } from "../../static.db";
 import { Images } from "../../Images";
 
 export default function QuoteSection() {
@@ -8,17 +8,17 @@ export default function QuoteSection() {
     <div className={styles.quotesection__wrap}>
       <div className={styles.quote_body}>
         <div className={styles.quote}>
-          <h1>{strings.quote_section.quote}</h1>
+          <h1>{pagesStrings.aboutme.quote_section.quote}</h1>
         </div>
         <img
           src={Images.quoteBanner}
           className={`${styles.quote_banner} lg:hidden`}
-          alt=""
+          alt="quote banner"
         />
         <img
           src={Images.quoteBannerWeb}
           className={styles.web_quote_banner}
-          alt=""
+          alt="quote banner web"
         />
       </div>
     </div>

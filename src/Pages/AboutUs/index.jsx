@@ -1,5 +1,4 @@
 import { Footer, Header } from "../../Components";
-import styles from "./AboutUs.module.scss";
 import DescriptionWithImage from "./DescriptionWithImage";
 import Gallery from "./Gallery";
 import HeroSection from "./HeroSection";

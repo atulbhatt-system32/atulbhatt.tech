@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import styles from "../Content.module.scss";
 import { Blog1, Blog2, Blog3, Watched, Heart } from "../../../Assets/images";
 import { Card } from "../../../Components";
@@ -65,11 +65,12 @@ const Blog = () => {
       like: "32",
     },
   ];
+
   return (
     <section className={styles.blog_section}>
       {data.map((item) => {
         return (
-          <Card className={styles.card__wrap}>
+          <Card className={styles.card__wrap} key={item.id}>
             <article className={styles.card}>
               <aside className={styles.card_aside}>
                 <figure className={styles.card_figure}>

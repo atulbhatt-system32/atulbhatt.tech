@@ -33,3 +33,53 @@
     }
   }
 }
+
+// BLOG :
+
+.card {
+  @apply flex flex-col gap-4;
+  .card_aside {
+    .card_figure {
+      img {
+        @apply w-100%;
+      }
+    }
+  }
+  .card_content {
+    @apply bg-white-900 rounded px-6 py-6;
+    .card_header {
+      @apply pb-4;
+      .card_title {
+        @apply text-24px font-semibold text-black-normal;
+      }
+    }
+    .card_body {
+      @apply pb-8 text-14px;
+      .card_copy {
+        @apply text-black-normal;
+      }
+    }
+    .card_tag {
+      @apply text-black-normal pb-6;
+    }
+    .card_footer {
+      @apply flex;
+      .card_watched {
+        @apply flex gap-1;
+        img {
+        }
+        span {
+          @apply text-black-normal;
+        }
+      }
+      .card_liked {
+        @apply flex gap-1;
+        img {
+        }
+        span {
+          @apply text-black-normal;
+        }
+      }
+    }
+  }
+}

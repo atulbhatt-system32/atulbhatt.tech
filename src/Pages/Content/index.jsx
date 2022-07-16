@@ -3,6 +3,7 @@ import { Footer, Header } from "../../Components";
 import styles from "./Content.module.scss";
 import strings from "../../strings.json";
 import Podcast from "./Podcast";
+import Blog from "./Blog";
 
 export default function Content() {
   return (
@@ -22,8 +23,11 @@ export default function Content() {
         </div>
       </div>
       <div>
-        <Podcast />
+        <Blog />
       </div>
+      {/* <div>
+        <Podcast />
+      </div> */}
       <div>
         <Footer />
       </div>

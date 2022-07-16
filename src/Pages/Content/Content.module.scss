@@ -33,3 +33,59 @@
     }
   }
 }
+
+// BLOG :
+
+.blog_section {
+  @apply p-8 flex flex-wrap gap-8;
+  .card__wrap {
+    @apply md:max-w-45% lg:max-w-31%;
+    .card {
+      @apply flex flex-col gap-4;
+      .card_aside {
+        .card_figure {
+          img {
+            @apply w-100%;
+          }
+        }
+      }
+      .card_content {
+        @apply bg-white-900 rounded px-6 py-6;
+        .card_header {
+          @apply pb-4;
+          .card_title {
+            @apply text-24px font-bold not-italic text-black-normal;
+          }
+        }
+        .card_body {
+          @apply pb-8;
+          .card_copy {
+            @apply text-black-normal text-14px leading-relaxed max-w-280px;
+          }
+        }
+        .card_tag {
+          @apply text-primary-blue-600 pb-6 text-14px leading-relaxed font-normal font-bold max-w-280px;
+        }
+        .card_footer {
+          @apply flex gap-10;
+          .card_watched {
+            @apply flex gap-2;
+            img {
+            }
+            span {
+              @apply text-black-normal text-14px font-normal;
+            }
+          }
+          .card_liked {
+            @apply flex gap-2;
+            img {
+            }
+            span {
+              @apply text-black-normal text-14px font-normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}

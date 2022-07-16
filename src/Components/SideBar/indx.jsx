@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Styles.module.scss";
 import { AiOutlineClose } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
+import { routes } from "../../static.db";
 
 export default function SideBar({ fun }) {
   const navigate = useNavigate();
@@ -20,10 +21,10 @@ export default function SideBar({ fun }) {
         </div>
       </div>
       <div className={styles.sidebar_menu}>
-        <div>Skills</div>
-        <div>Projects</div>
-        <div>Content</div>
-        <div onClick={() => navigate("/about-us")}>About Me</div>
+        <div onClick={() => navigate(routes.skills.path)}>Skills</div>
+        <div onClick={() => navigate(routes.projects.path)}>Projects</div>
+        <div onClick={() => navigate(routes.content.path)}>Content</div>
+        <div onClick={() => navigate(routes.aboutMe.path)}>About Me</div>
       </div>
       <div>
         <button className={styles.siderbar_button}>Resume</button>

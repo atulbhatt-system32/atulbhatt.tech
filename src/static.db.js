@@ -206,6 +206,14 @@ const links = {
   },
 };
 
+const layoutStrings = {
+  navbar: {},
+  footer: {
+    phone: "Phone: +91-8958318394",
+    email: "Email: atulbhatt98@gmail.com",
+    copyright: "© 2022 Atul Bhatt. Designed by AnkyStudio.",
+  },
+};
 const pagesStrings = {
   home: {
     Intro_Section: {
@@ -227,21 +235,24 @@ const pagesStrings = {
       links.socialLinks.github,
       links.socialLinks.twitter,
     ],
-    about_us_hero_section: {
-      title: "i hail from Devbhumi well known as Uttarakhand.",
+  },
+  aboutme: {
+    about_me_hero_section: {
+      title: "I hail from Devbhumi well known as Uttarakhand.",
     },
 
     quote_section: {
       quote:
-        "i’m atul also know as “ tum apne aap ko developer khte ho” Quote  maker.",
+        "FE dev. Prefer songs instead of coffee to keep me awake. Wanna be Jack of all trades but still a master of some. Hate Failures but love trying out. A poet maybe!",
     },
 
     description_with_image: {
       first_description: "development for me is like oxygen ",
       second_description:
-        "but apart from this i’m fitness  enthusia and mallu photographer",
+        "but apart from this i’m fitness  enthusiast and selenophile",
     },
-
+  },
+  content: {
     content_tabs: {
       blog: "Blog",
       videos: "Videos",
@@ -253,4 +264,12 @@ const pagesStrings = {
     },
   },
 };
-export { skills, projects, routes, testimonials, links, pagesStrings };
+export {
+  skills,
+  projects,
+  routes,
+  testimonials,
+  links,
+  pagesStrings,
+  layoutStrings,
+};

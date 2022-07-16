@@ -13,8 +13,8 @@ export default function Gallery() {
   return (
     <div className={styles.gallery__wrap}>
       <div className={styles.gallery_img_body}>
-        {galleryImg.map((img) => {
-          return <img src={img} alt="" />;
+        {galleryImg.map((img, index) => {
+          return <img src={img} alt={`pic${index}`} />;
         })}
       </div>
     </div>

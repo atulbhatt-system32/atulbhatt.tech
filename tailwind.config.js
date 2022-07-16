@@ -2,6 +2,18 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    minHeight: {
+      "176px": "176px",
+    },
+    minWidth: {
+      "234px": "234px",
+    },
+    maxWidth: {
+      none: "none",
+      "200px": "200px",
+      "360px": "360px",
+      "520px": "520px",
+    },
     fontSize: {
       "12px": "12px",
       "14px": "14px",
@@ -51,19 +63,32 @@ module.exports = {
         100: "#1B1B1B",
         200: "#222222",
         500: "#575559",
+        50: "#2C2C2C",
       },
     },
     extend: {
+      spacing: {
+        "5px": "5px",
+        "144px": "144px",
+        "120px": "120px",
+      },
       width: {
+        "5%": "5%",
+        "12%": "12%",
+        "15%": "15%",
         "80%": "80%",
+        "20%": "20%",
         "30%": "30%",
         "40%": "40%",
         "50%": "50%",
         "60%": "60%",
+        "65%": "65%",
         "75%": "75%",
         "95%": "95%",
+        "100%": "100%",
         "sidebar-large": "300px",
         "sidebar-md": "265px",
+        "footer-title-xl": "360px",
       },
       height: {
         "profile-ex-sm": "280px",
@@ -72,9 +97,15 @@ module.exports = {
         "profile-lg": "650px",
         "quote-ex-sm": "250px",
         "quote-md": "290px",
+        "quote-large": "470px",
+        "podcast-banner": "160px",
+        "podcast-banner-sm": "300px",
+        "podcast-banner-lg": "388px",
       },
     },
     borderWidth: {
+      0.5: "0.5px",
+      1: "1px",
       1.5: "1.5px",
     },
 

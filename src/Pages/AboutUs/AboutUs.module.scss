@@ -33,22 +33,56 @@
 
 // quote section styles
 .quotesection__wrap {
-  @apply px-4 py-8;
+  @apply px-4 mt-8 lg:mt-16;
   .quote_body {
     @apply flex relative;
     .quote {
-      @apply w-80% md:w-10/12 h-quote-ex-sm md:h-quote-md items-center flex sm:mx-8;
+      @apply w-80% md:w-10/12 h-quote-ex-sm md:h-quote-md  lg:h-quote-large lg:pl-8  items-center lg:items-start flex sm:mx-8;
       background: linear-gradient(
         101.03deg,
         #d9d9d9 2.38%,
         rgba(217, 217, 217, 0) 107.53%
       );
       h1 {
-        @apply capitalize text-black-normal font-normal text-16px sm:text-18px p-4 w-80%;
+        @apply capitalize text-black-normal font-normal text-16px sm:text-18px md:text-24px lg:text-32px  p-4 w-80% lg:pt-24;
       }
     }
     .quote_banner {
       @apply absolute -right-5 sm:right-0 bottom-0;
     }
+    .web_quote_banner {
+      @apply absolute right-0  bottom-0 hidden lg:flex;
+    }
   }
+}
+
+//description with image section styles
+.description_with_image__wrap {
+  @apply flex flex-col px-8 relative -top-12 md:-top-16  lg:-top-48 lg:left-32 sm:w-80% md:w-10/12 lg:w-full sm:mx-auto;
+  .about_div {
+    @apply flex pb-8 lg:w-80%;
+    img {
+      @apply flex w-40% md:w-30% lg:w-30%;
+    }
+    .description {
+      @apply flex items-end w-50% lg:w-40%  pl-4 capitalize text-16px sm:text-18px md:text-24px lg:text-32px font-bold;
+      img {
+        @apply lg:w-12 md:w-10 sm:w-8 w-4;
+      }
+    }
+  }
+}
+
+// Gallery styles
+.gallery__wrap {
+  @apply flex p-4 pr-0 pb-32;
+  .gallery_img_body {
+    @apply flex overflow-scroll lg:justify-center;
+    img {
+      @apply m-2 lg:m-3 w-2/6 lg:w-1/5;
+    }
+  }
+}
+.gallery_img_body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }

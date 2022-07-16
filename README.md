@@ -73,4 +73,4 @@ One can contribute by creating _pull requests_, or by opening _issues_ for disco
 - Similarly a separate project page where a person can check how suitable are you for a project by matching the skills and functionalities you implemented in them. Or maybe just check them and see them in action if they are live.
   The project section is very well segregated.
 - It also offers content page. Nowdays, people are doing so much more than just development. If you write blogs, do podcasts, or have a youtube channel, you can add it to the content page which all have unique sections of their own.
-- A easy configuration object if you don't want to show a particular page, or disable dark theme (😅 Idk why) but yeah it's there. - Testimonials Section have video testimonials option too. They give more authenticity. Don't they?
+- An easy configuration object if you don't want to show a particular page, or disable dark theme (😅 Idk why) but yeah it's there. - Testimonials Section have video testimonials option too. They give more authenticity. Don't they?

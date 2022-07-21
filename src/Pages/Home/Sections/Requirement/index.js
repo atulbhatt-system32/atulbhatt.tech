@@ -5,15 +5,15 @@ import styles from "../../Home.module.scss";
 const Requirement = () => {
   return (
     <section>
-      <Container className={` ${styles.reuired__wrap}`}>
+      <Container className={` ${styles.required__wrap}`}>
         <div className={styles.title}>
           Do you have a project that you want to be done? Check out if my skills
           matches your requirements
         </div>
-        <div className="self-center rounded-md bg-transparent-dark">
-          <button className="flex items-center gap-2.5 p-3">
+        <div className={styles.btn__wrap}>
+          <button className={styles.btn}>
             <img src={Cursor} alt="cursor" />
-            <div className="font-medium text-2xl  ">Here</div>
+            <div className={styles.btn_text}>Here</div>
           </button>
         </div>
       </Container>

@@ -2,6 +2,21 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    minHeight: {
+      "176px": "176px",
+    },
+    minWidth: {
+      "234px": "234px",
+    },
+    maxWidth: {
+      none: "none",
+      "31%": "31%",
+      "45%": "45%",
+      "200px": "200px",
+      "280px": "280px",
+      "360px": "360px",
+      "520px": "520px",
+    },
     fontSize: {
       "12px": "12px",
       "14px": "14px",
@@ -58,16 +73,28 @@ module.exports = {
       },
     },
     extend: {
+      spacing: {
+        "5px": "5px",
+        "144px": "144px",
+        "120px": "120px",
+      },
       width: {
+        "5%": "5%",
+        "12%": "12%",
+        "15%": "15%",
         "80%": "80%",
+        "20%": "20%",
         "30%": "30%",
         "40%": "40%",
         "50%": "50%",
         "60%": "60%",
+        "65%": "65%",
         "75%": "75%",
         "95%": "95%",
+        "100%": "100%",
         "sidebar-large": "300px",
         "sidebar-md": "265px",
+        "footer-title-xl": "360px",
       },
       height: {
         "profile-ex-sm": "280px",
@@ -83,6 +110,8 @@ module.exports = {
       },
     },
     borderWidth: {
+      0.5: "0.5px",
+      1: "1px",
       1.5: "1.5px",
     },
 

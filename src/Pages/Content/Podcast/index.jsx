@@ -1,4 +1,5 @@
 import React from "react";
+import SpotifyCard from "../../../Components/SpotifyCard";
 import { Images } from "../../../Images";
 import styles from "../Content.module.scss";
 
@@ -16,6 +17,9 @@ export default function Podcast() {
           alt=""
           className={styles.banner_web}
         />
+      </div>
+      <div className={styles.spotify_cards_wrap}>
+        <SpotifyCard />
       </div>
     </div>
   );

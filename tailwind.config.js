@@ -53,6 +53,9 @@ module.exports = {
         500: "#575559",
         50: "#2C2C2C",
       },
+      pink: {
+        dark: "#c01050",
+      },
     },
     extend: {
       width: {

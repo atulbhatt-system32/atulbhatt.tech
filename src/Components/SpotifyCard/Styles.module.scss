@@ -1,0 +1,16 @@
+.spotifyCard__wrap {
+  @apply p-4;
+  .spotify_main_card {
+    @apply flex rounded-2xl border-spacing-y-4 w-full m-4 bg-pink-dark;
+    height: "214px";
+  }
+  .spotify_thumbnill {
+    @apply flex w-40%;
+  }
+  .spotify_title_wrap {
+    @apply flex bg-black-normal text-white-900 rounded-xl text-24px flex justify-center items-center py-12 font-semibold;
+  }
+  .spotify_details {
+    @apply flex;
+  }
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Footer, Header } from "../../Components";
 import styles from "./Content.module.scss";
 import strings from "../../strings.json";
@@ -6,15 +6,22 @@ import Podcast from "./Podcast";
 import Blog from "./Blog";
 
 export default function Content() {
+  const [tab, setTab] = useState("blog");
   return (
     <div>
       <div>
         <Header />
       </div>
       <div className={styles.content_tab_section}>
-        <button className={styles.tab}>{strings.content_tabs.blog}</button>
-        <button className={styles.tab}>{strings.content_tabs.videos}</button>
-        <button className={styles.tab}>{strings.content_tabs.podcast}</button>
+        <button className={styles.tab} onClick={() => setTab("blog")}>
+          {strings.content_tabs.blog}
+        </button>
+        <button className={styles.tab} onClick={() => setTab("videos")}>
+          {strings.content_tabs.videos}
+        </button>
+        <button className={styles.tab} onClick={() => setTab("podcast")}>
+          {strings.content_tabs.podcast}
+        </button>
       </div>
       <div className={styles.content_search_section}>
         <div className={styles.search_body}>
@@ -23,11 +30,11 @@ export default function Content() {
         </div>
       </div>
       <div>
-        <Blog />
+        {tab === "blog" && <Blog />}
+        {tab === "blog" && <Blog />}
+        {tab === "podcast" && <Podcast />}
       </div>
-      {/* <div>
-        <Podcast />
-      </div> */}
+
       <div>
         <Footer />
       </div>

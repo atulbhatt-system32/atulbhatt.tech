@@ -11,6 +11,8 @@ import Blog2 from "./blogs/blog2.svg";
 import Blog3 from "./blogs/blog3.svg";
 import Watched from "./blogs/watched.svg";
 import Heart from "./blogs/heart.svg";
+import Idea from "./skills/ideaSkill.svg";
+import Search from "./skills/searchSkill.svg";
 export {
   HamBurger,
   LightMode,
@@ -25,4 +27,6 @@ export {
   Blog3,
   Watched,
   Heart,
+  Idea,
+  Search,
 };

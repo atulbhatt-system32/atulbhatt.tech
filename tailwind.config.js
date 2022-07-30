@@ -114,6 +114,7 @@ module.exports = {
 
     fontFamily: {
       body: ["'DM Sans'"],
+      logo: ["'BrightWall'"],
     },
   },
   plugins: [],

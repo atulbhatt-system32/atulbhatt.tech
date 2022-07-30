@@ -87,7 +87,38 @@ const skills = [
   },
 ];
 
-const projects = [{}];
+const projects = [
+  {
+    name: "SourceBae",
+    url: "https://sourcebae.com/",
+    color: "voilet",
+  },
+  {
+    name: "RecruitBae",
+    url: "http://recruitbae.com/",
+    color: "blue",
+  },
+  {
+    name: "Rene CSS",
+    url: "https://github.com/relateapp/rene.css",
+    color: "blue",
+  },
+  {
+    name: "Vital",
+    url: "https://vital-dapp.netlify.app/",
+    color: "pink",
+  },
+  {
+    name: "Tealbox digital",
+    url: "https://www.tealbox.digital/",
+    color: "voilet",
+  },
+  {
+    name: "Samadhan",
+    url: "https://samadhan.tech/",
+    color: "pink",
+  },
+];
 
 const routes = {
   home: {
@@ -242,6 +273,7 @@ const experience = [
     technologies: [],
   },
 ];
+
 const layoutStrings = {
   navbar: {
     logoText: "Atul Bhatt",
@@ -264,7 +296,7 @@ const pagesStrings = {
     },
     Skills_section: {
       title1: "Skills & ",
-      title2: "Experince",
+      title2: "Experience",
       sub_title:
         "😎 A specialist in frontend development. ✨ A passion of mine is development and solving problem through my skills",
     },
@@ -275,7 +307,14 @@ const pagesStrings = {
       links.socialLinks.twitter,
     ],
     experience,
+    projects: {
+      title: "Projects",
+      sub_title:
+        "I have worked on a number of projects in my career. Some of them are:",
+      projects_list: projects.slice(0, 7),
+    },
   },
+
   aboutme: {
     about_me_hero_section: {
       title: "I hail from Devbhumi well known as Uttarakhand.",
@@ -292,6 +331,7 @@ const pagesStrings = {
         "but apart from this i’m fitness  enthusiast and selenophile",
     },
   },
+
   content: {
     content_tabs: {
       blog: "Blog",

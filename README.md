@@ -74,3 +74,7 @@ One can contribute by creating _pull requests_, or by opening _issues_ for disco
   The project section is very well segregated.
 - It also offers content page. Nowdays, people are doing so much more than just development. If you write blogs, do podcasts, or have a youtube channel, you can add it to the content page which all have unique sections of their own.
 - An easy configuration object if you don't want to show a particular page, or disable dark theme (😅 Idk why) but yeah it's there. - Testimonials Section have video testimonials option too. They give more authenticity. Don't they?
+
+## Helpful Resouce Links
+
+- [The Ultimate Date Pickers Library] (https://react-spectrum.adobe.com/blog/date-and-time-pickers-for-all.html)

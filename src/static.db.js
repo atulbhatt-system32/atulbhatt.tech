@@ -207,7 +207,9 @@ const links = {
 };
 
 const layoutStrings = {
-  navbar: {},
+  navbar: {
+    logoText:'Atul Bhatt'
+  },
   footer: {
     phone: "Phone: +91-8958318394",
     email: "Email: atulbhatt98@gmail.com",

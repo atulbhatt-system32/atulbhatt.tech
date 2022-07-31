@@ -1,0 +1,40 @@
+.search_skill {
+  @apply py-6 px-10 xl:px-24 xl:pt-32;
+  .search_skill__wrap {
+    @apply flex flex-col gap-6 xl:flex-row xl:justify-between xl:items-center;
+    .search_skill_box {
+      @apply flex justify-between items-center gap-4 xl:flex-1;
+      .search_skill_img {
+        img {
+        }
+      }
+      .search_skill_input {
+        @apply flex flex-col gap-2 xl:flex-row xl:items-center;
+        .search_skill_input_head {
+          @apply font-bold text-14px xl:text-16px;
+        }
+        .search_skill_input_box {
+          input {
+            @apply py-3 px-5 rounded-lg;
+          }
+        }
+      }
+    }
+    .search_skill_match {
+      @apply flex justify-between xl:flex-col xl:py-3.5 xl:py-10;
+      .search_skill_match_img {
+        @apply flex justify-center;
+        img {
+        }
+      }
+      .search_skill_match_valuation {
+        @apply flex flex-col xl:items-center;
+        .search_skill_match_num {
+        }
+        .search_skill_match_percentage {
+          @apply text-grass;
+        }
+      }
+    }
+  }
+}

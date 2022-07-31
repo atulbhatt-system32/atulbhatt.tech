@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     minHeight: {
       "176px": "176px",
+      "64px": "64px",
+      "96px": "96px",
     },
     minWidth: {
+      "214px": "214px",
       "234px": "234px",
     },
     maxWidth: {
@@ -30,6 +33,7 @@ module.exports = {
       "48px": "48px",
     },
     colors: {
+      grass: "#05950A",
       transparent: "transparent",
       current: "currentColor",
       purple: "#3f3cbb",

@@ -1,0 +1,18 @@
+.skills {
+  @apply py-6 px-10;
+  .skills_wrap {
+    @apply flex flex-col gap-16;
+    .basic_web {
+      @apply flex flex-col gap-6 justify-center items-center;
+      .basic_web_head {
+        @apply text-32px font-bold text-center;
+      }
+      .basic_web_body {
+        @apply flex flex-col gap-8;
+        .card {
+          @apply flex justify-center text-center items-center text-24px font-bold min-w-214px min-h-64px bg-grass rounded-md;
+        }
+      }
+    }
+  }
+}

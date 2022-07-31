@@ -23,21 +23,22 @@ const Project = () => {
           </div>
           {/* PROJECT BODY */}
           <div className={styles.project_body}>
-            {projects.projects_list.map((project) => (
-              <Card
-                key={project.id}
-                className={[
-                  styles.project_card,
-                  "bg-black-100",
-                  "cursor:pointer",
-                ].join(" ")}
-                data={project}
-              >
-                <span className={`text-project-card-lg-${project.color}`}>
-                  {project.name}
-                </span>
-              </Card>
-            ))}
+            {projects.projects_list.map((project) => {
+              const spanClass = `text-project-card-dk-${project.color}`;
+              return (
+                <Card
+                  key={project.id}
+                  className={[
+                    styles.project_card,
+                    "bg-black-100",
+                    "cursor:pointer",
+                  ].join(" ")}
+                  data={project}
+                >
+                  <span className={spanClass}>{project.name}</span>
+                </Card>
+              );
+            })}
 
             <Card
               className={[

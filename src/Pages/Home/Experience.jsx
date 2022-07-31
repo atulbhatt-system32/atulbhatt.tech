@@ -2,6 +2,18 @@ import React from "react";
 import styles from "./Home.module.scss";
 import strings from "../../strings.json";
 import Technologies from "./Technologies";
+import { pagesStrings } from "../../static.db";
+import { dateUtils } from "../../Utils";
+
+const {
+  home: { experience },
+} = pagesStrings;
+
+function getYearsRange(isCurrent, start, end) {
+  return isCurrent
+    ? `${dateUtils.getYear(start)} - Current`
+    : `${dateUtils.getYear(start)} - ${dateUtils.getYear(end)}`;
+}
 
 export default function Experience() {
   return (
@@ -29,14 +41,16 @@ export default function Experience() {
       {/* //experience  */}
       <div className={styles.experience__wrap}>
         <h1 className={`${styles.title} `}>Experience</h1>
-        {[1, 2, 3, 4, 5].map((item) => {
+        {experience.map((item) => {
           return (
             <div className={styles.experience_detail_body}>
-              <div className={styles.experience_time}>2012-2021</div>
-              <div className={styles.experience_feild}>
-                <p className="lg:text-20px font-bold">Frontend Developer</p>
+              <div className={styles.experience_time}>
+                {getYearsRange(item.isCurrent, item.startDate, item.endDate)}
+              </div>
+              <div className={styles.experience_field}>
+                <p className="lg:text-20px font-bold">{item.designation}</p>
                 <p className="text-gray-100 text-12px lg:text-16px font-medium mt-4">
-                  IMD Dehradun
+                  {item.company}
                 </p>
               </div>
             </div>

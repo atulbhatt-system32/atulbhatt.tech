@@ -87,7 +87,38 @@ const skills = [
   },
 ];
 
-const projects = [{}];
+const projects = [
+  {
+    name: "SourceBae",
+    url: "https://sourcebae.com/",
+    color: "voilet",
+  },
+  {
+    name: "RecruitBae",
+    url: "http://recruitbae.com/",
+    color: "blue",
+  },
+  {
+    name: "Rene CSS",
+    url: "https://github.com/relateapp/rene.css",
+    color: "blue",
+  },
+  {
+    name: "Vital",
+    url: "https://vital-dapp.netlify.app/",
+    color: "pink",
+  },
+  {
+    name: "Tealbox digital",
+    url: "https://www.tealbox.digital/",
+    color: "voilet",
+  },
+  {
+    name: "Samadhan",
+    url: "https://samadhan.tech/",
+    color: "pink",
+  },
+];
 
 const routes = {
   home: {
@@ -206,14 +237,54 @@ const links = {
   },
 };
 
+const experience = [
+  {
+    id: 3,
+    company: "Relate",
+    designation: "Freelance - Web Developer",
+    startDate: "2022-04-30",
+    endDate: "",
+    isCurrent: true,
+    description: "",
+    projects: [],
+    technologies: [],
+  },
+  {
+    id: 2,
+    company: "PTW",
+    designation: "React JS Developer",
+    startDate: "2021-09-01",
+    endDate: "2022-02-28",
+    isCurrent: false,
+    description:
+      "I was an outsourced developer at PTW. I was responsible for working on the Frontend of the internal application called 'SIDE' The functionalities were related to implementing drag and drop features to schedule meetings and sessions in a custom calendar UI. My role was to communicate with the Testers to understand the bugs and issues reported, resolve them, and update them on ZOHO sprint. My experience working at PTW was memorable and full of learning.It was a good team of developers, and testers, as well as the manager was very supportive. Our team lead, Sreeja was very understanding and fun to work with person. The best part working with the team was that everyone made sure that they don't become a blocker by creating a dependency by not being available, they made sure there presence was there whenever required. My last day as an outsourced developer was quite memorable as next day it was going to 'demo' day and shoot there were bug that reached the staging. It was fun to resolve it. The dedication of the team was phenomenal. A special and heartful thanks to - Kiran (Manager), Sreeja (Team Lead), Naveen (Senior React Developer), Pavitra (Tester), Gangadevi (UI Developer), Sushma (Tester)",
+    projects: [],
+    technologies: [],
+  },
+  {
+    id: 1,
+    company: "Shethink",
+    designation: "Sr. React Developer",
+    startDate: "2020-06-01",
+    endDate: "2022-04-30",
+    isCurrent: false,
+    description: "",
+    projects: [],
+    technologies: [],
+  },
+];
+
 const layoutStrings = {
-  navbar: {},
+  navbar: {
+    logoText: "Atul Bhatt",
+  },
   footer: {
     phone: "Phone: +91-8958318394",
     email: "Email: atulbhatt98@gmail.com",
     copyright: "© 2022 Atul Bhatt. Designed by AnkyStudio.",
   },
 };
+
 const pagesStrings = {
   home: {
     Intro_Section: {
@@ -225,7 +296,7 @@ const pagesStrings = {
     },
     Skills_section: {
       title1: "Skills & ",
-      title2: "Experince",
+      title2: "Experience",
       sub_title:
         "😎 A specialist in frontend development. ✨ A passion of mine is development and solving problem through my skills",
     },
@@ -235,7 +306,15 @@ const pagesStrings = {
       links.socialLinks.github,
       links.socialLinks.twitter,
     ],
+    experience,
+    projects: {
+      title: "Projects",
+      sub_title:
+        "I have worked on a number of projects in my career. Some of them are:",
+      projects_list: projects.slice(0, 7),
+    },
   },
+
   aboutme: {
     about_me_hero_section: {
       title: "I hail from Devbhumi well known as Uttarakhand.",
@@ -252,6 +331,7 @@ const pagesStrings = {
         "but apart from this i’m fitness  enthusiast and selenophile",
     },
   },
+
   content: {
     content_tabs: {
       blog: "Blog",

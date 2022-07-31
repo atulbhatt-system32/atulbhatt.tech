@@ -3,6 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 import DarkMode from "../DarkMode";
 import SideBar from "../SideBar";
+import { layoutStrings } from "../../static.db";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -20,10 +21,10 @@ export default function Header() {
       }}
     >
       <div
-        className="font-semibold flex text-24 cursor-pointer "
+        className="font-semibold flex text-24 cursor-pointer font-logo"
         onClick={() => navigate("/")}
       >
-        Logo
+        {layoutStrings.navbar.logoText}
       </div>
       <div className="flex">
         <DarkMode />

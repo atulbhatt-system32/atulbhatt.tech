@@ -1,6 +1,11 @@
 import React from "react";
 import styles from "../../Home.module.scss";
 import { Container, Card } from "../../../../Components";
+import { pagesStrings } from "../../../../static.db";
+
+const {
+  home: { projects },
+} = pagesStrings;
 const Project = () => {
   return (
     <section className="bg-black-200">
@@ -8,31 +13,31 @@ const Project = () => {
         <div className={styles.project}>
           {/* PROJECT HEAD */}
           <div className={styles.project_head}>
-            <div className={styles.project_title}>Projects</div>
+            <div className={styles.project_title}>{projects.title}</div>
             <div className={styles.project_subtitle}>
               <div className={styles.project_subtitle_line}></div>
               <div className={styles.project_subtitle_text}>
-                I'm Proudly Work For Some Of Best Projects
+                {projects.sub_title}
               </div>
             </div>
           </div>
           {/* PROJECT BODY */}
           <div className={styles.project_body}>
-            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
-              <span className="text-project-card-lg-voilet">SourceBae</span>
-            </Card>
-            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
-              <span className="text-project-card-lg-blue">Rene CSS</span>
-            </Card>
-            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
-              <span className="text-project-card-dk-blue">Vital</span>
-            </Card>
-            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
-              <span className="text-project-card-dk-pink">Tealbox digital</span>
-            </Card>
-            <Card className={[styles.project_card, "bg-black-100"].join(" ")}>
-              <span className="text-project-card-dk-voilet">Samadhan</span>
-            </Card>
+            {projects.projects_list.map((project) => (
+              <Card
+                className={[
+                  styles.project_card,
+                  "bg-black-100",
+                  "cursor:pointer",
+                ].join(" ")}
+                data={project}
+              >
+                <span className={`text-project-card-lg-${project.color}`}>
+                  {project.name}
+                </span>
+              </Card>
+            ))}
+
             <Card
               className={[
                 "bg-project-card-bg 2xl:justify-end",

@@ -331,7 +331,7 @@ const pagesStrings = {
         " I’ve always been a lover of tech and that love brought me into the software development field. I’ve been into programming since 2016.",
       button_text: "Let’s Connect",
     },
-    Skills_section: {
+    skills_section: {
       title1: "Skills & ",
       title2: "Experience",
       sub_title:

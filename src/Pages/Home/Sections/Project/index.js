@@ -24,7 +24,6 @@ const Project = () => {
           {/* PROJECT BODY */}
           <div className={styles.project_body}>
             {projects.projects_list.map((project) => {
-              const spanClass = `text-project-card-dk-${project.color}`;
               return (
                 <Card
                   key={project.id}
@@ -35,7 +34,7 @@ const Project = () => {
                   ].join(" ")}
                   data={project}
                 >
-                  <span className={spanClass}>{project.name}</span>
+                  <span style={{ color: project.color }}>{project.name}</span>
                 </Card>
               );
             })}

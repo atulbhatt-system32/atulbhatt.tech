@@ -92,37 +92,37 @@ const projects = [
     id: 1,
     name: "SourceBae",
     url: "https://sourcebae.com/",
-    color: "voilet",
+    color: "#bc53ff",
   },
   {
     id: 2,
     name: "RecruitBae",
     url: "http://recruitbae.com/",
-    color: "blue",
+    color: "#0092a9",
   },
   {
     id: 3,
     name: "Rene CSS",
     url: "https://github.com/relateapp/rene.css",
-    color: "blue",
+    color: "#3f2aff",
   },
   {
     id: 4,
     name: "Vital",
     url: "https://vital-dapp.netlify.app/",
-    color: "pink",
+    color: "#ecebff",
   },
   {
     id: 5,
     name: "Tealbox digital",
     url: "https://www.tealbox.digital/",
-    color: "voilet",
+    color: "#2A7FFF",
   },
   {
     id: 6,
     name: "Samadhan",
     url: "https://samadhan.tech/",
-    color: "pink",
+    color: "#3ab7bf",
   },
 ];
 

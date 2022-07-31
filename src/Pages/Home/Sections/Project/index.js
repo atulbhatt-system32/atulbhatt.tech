@@ -31,7 +31,7 @@ const Project = () => {
                   "bg-black-100",
                   "cursor:pointer",
                 ].join(" ")}
-                onClick={() => window.open(project.url)}
+                data={project}
               >
                 <span className={`text-project-card-lg-${project.color}`}>
                   {project.name}

@@ -30,7 +30,7 @@ const Project = () => {
                   className={[
                     styles.project_card,
                     "bg-black-100",
-                    "cursor:pointer",
+                    "cursor-pointer",
                   ].join(" ")}
                   data={project}
                 >

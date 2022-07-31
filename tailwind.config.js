@@ -60,6 +60,8 @@ module.exports = {
         green: "rgba(0, 198, 101, 1)",
       },
       white: {
+        100: "#E1E1E1",
+        700: "#f9f9f9",
         900: "#ffffff",
       },
       gray: {
@@ -67,10 +69,10 @@ module.exports = {
         200: "rgba(174, 174, 174, 1)",
       },
       black: {
+        50: "#2C2C2C",
         100: "#1B1B1B",
         200: "#222222",
         500: "#575559",
-        50: "#2C2C2C",
       },
     },
     extend: {
@@ -109,11 +111,11 @@ module.exports = {
         "podcast-banner-sm": "300px",
         "podcast-banner-lg": "388px",
       },
-    },
-    borderWidth: {
-      0.5: "0.5px",
-      1: "1px",
-      1.5: "1.5px",
+      borderWidth: {
+        0.5: "0.5px",
+        1: "1px",
+        1.5: "1.5px",
+      },
     },
 
     fontFamily: {

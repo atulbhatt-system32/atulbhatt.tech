@@ -25,12 +25,13 @@ const Project = () => {
           <div className={styles.project_body}>
             {projects.projects_list.map((project) => (
               <Card
+                key={project.id}
                 className={[
                   styles.project_card,
                   "bg-black-100",
                   "cursor:pointer",
                 ].join(" ")}
-                data={project}
+                onClick={() => window.open(project.url)}
               >
                 <span className={`text-project-card-lg-${project.color}`}>
                   {project.name}

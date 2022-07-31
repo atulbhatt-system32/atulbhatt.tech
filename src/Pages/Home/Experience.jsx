@@ -43,7 +43,7 @@ export default function Experience() {
         <h1 className={`${styles.title} `}>Experience</h1>
         {experience.map((item) => {
           return (
-            <div className={styles.experience_detail_body}>
+            <div className={styles.experience_detail_body} key={item.id}>
               <div className={styles.experience_time}>
                 {getYearsRange(item.isCurrent, item.startDate, item.endDate)}
               </div>

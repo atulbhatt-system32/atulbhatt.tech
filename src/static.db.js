@@ -89,31 +89,37 @@ const skills = [
 
 const projects = [
   {
+    id: 1,
     name: "SourceBae",
     url: "https://sourcebae.com/",
     color: "voilet",
   },
   {
+    id: 2,
     name: "RecruitBae",
     url: "http://recruitbae.com/",
     color: "blue",
   },
   {
+    id: 3,
     name: "Rene CSS",
     url: "https://github.com/relateapp/rene.css",
     color: "blue",
   },
   {
+    id: 4,
     name: "Vital",
     url: "https://vital-dapp.netlify.app/",
     color: "pink",
   },
   {
+    id: 5,
     name: "Tealbox digital",
     url: "https://www.tealbox.digital/",
     color: "voilet",
   },
   {
+    id: 6,
     name: "Samadhan",
     url: "https://samadhan.tech/",
     color: "pink",
@@ -143,8 +149,10 @@ const routes = {
   },
 };
 
-const testimonials = {
-  samadhan: {
+const testimonials = [
+  {
+    id: 1,
+    project: "Samadhan",
     name: "Varun",
     designation: "Founder",
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
@@ -153,7 +161,9 @@ const testimonials = {
       "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
     videoTestimonyLink: null,
   },
-  side: {
+  {
+    id: 2,
+    project: "Side",
     name: "Sreeja",
     designation: "Team Lead",
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
@@ -163,7 +173,9 @@ const testimonials = {
     videoTestimonyLink: null,
   },
 
-  tealbox: {
+  {
+    id: 3,
+    project: "TealBox",
     name: "Karan Dubey",
     designation: "Team Lead",
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
@@ -172,7 +184,9 @@ const testimonials = {
       "Atul is self motivated and an exceptional learner who mastered the application in no time. He has worked on a very complex module and made it exactly as per the requirements with such ease. He was always available for any issue resolution and highly dedicated to the tasks. It is a pleasure working with Atul and he is an asset to any team.",
     videoTestimonyLink: null,
   },
-  BigOn: {
+  {
+    id: 4,
+    project: "BigOn",
     name: "Rajesh Durai",
     designation: "Team Lead",
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
@@ -181,7 +195,7 @@ const testimonials = {
       "Atul is self motivated and an exceptional learner who mastered the application in no time. He has worked on a very complex module and made it exactly as per the requirements with such ease. He was always available for any issue resolution and highly dedicated to the tasks. It is a pleasure working with Atul and he is an asset to any team.",
     videoTestimonyLink: null,
   },
-};
+];
 
 const links = {
   socialLinks: {
@@ -307,11 +321,19 @@ const pagesStrings = {
       links.socialLinks.twitter,
     ],
     experience,
+
     projects: {
       title: "Projects",
       sub_title:
         "I have worked on a number of projects in my career. Some of them are:",
       projects_list: projects.slice(0, 7),
+    },
+
+    testimonials: {
+      title: "Testimonials",
+      sub_title:
+        "Here are some of the people I have worked with and their testimonials:",
+      testimonials_list: testimonials,
     },
   },
 
@@ -344,6 +366,7 @@ const pagesStrings = {
     },
   },
 };
+
 export {
   skills,
   projects,

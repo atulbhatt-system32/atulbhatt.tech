@@ -4,18 +4,18 @@ import { Images } from "../../Images";
 import { BsArrowRight } from "react-icons/bs";
 
 const TECHNOLOGY = [
-  { text: "HTML", image: Images.html },
-  { text: "CSS", image: Images.css },
-  { text: "React", image: Images.react },
-  { text: "Git", image: Images.git },
-  { text: "JavaScript", image: Images.javascript },
+  { id: 1, text: "HTML", image: Images.html },
+  { id: 2, text: "CSS", image: Images.css },
+  { id: 3, text: "React", image: Images.react },
+  { id: 4, text: "Git", image: Images.git },
+  { id: 5, text: "JavaScript", image: Images.javascript },
 ];
 export default function Technologies() {
   return (
     <div className="flex flex-wrap">
       {TECHNOLOGY.map((item) => {
         return (
-          <div className={styles.technologies__wrap}>
+          <div className={styles.technologies__wrap} key={item.id}>
             <div className={styles.technology}>
               <img src={item.image} alt="" />
             </div>

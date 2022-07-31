@@ -6,6 +6,7 @@ import IntroSection from "./IntroSection";
 import Skills from "./Skills";
 import Technologies from "./Technologies";
 import SocialLinks from "./SocialLinks";
+import Testimonials from "./Testimonials";
 export default function Home() {
   return (
     <div>
@@ -22,6 +23,7 @@ export default function Home() {
       </section>
       <Project />
       <Requirement />
+      <Testimonials />
       <Query />
       <Footer />
     </div>

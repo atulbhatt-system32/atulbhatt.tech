@@ -92,37 +92,37 @@ const projects = [
     id: 1,
     name: "SourceBae",
     url: "https://sourcebae.com/",
-    color: "voilet",
+    color: "#bc53ff",
   },
   {
     id: 2,
     name: "RecruitBae",
     url: "http://recruitbae.com/",
-    color: "blue",
+    color: "#0092a9",
   },
   {
     id: 3,
     name: "Rene CSS",
     url: "https://github.com/relateapp/rene.css",
-    color: "blue",
+    color: "#3f2aff",
   },
   {
     id: 4,
     name: "Vital",
     url: "https://vital-dapp.netlify.app/",
-    color: "pink",
+    color: "#ecebff",
   },
   {
     id: 5,
     name: "Tealbox digital",
     url: "https://www.tealbox.digital/",
-    color: "voilet",
+    color: "#2A7FFF",
   },
   {
     id: 6,
     name: "Samadhan",
     url: "https://samadhan.tech/",
-    color: "pink",
+    color: "#3ab7bf",
   },
 ];
 
@@ -195,6 +195,17 @@ const testimonials = [
       "Atul is self motivated and an exceptional learner who mastered the application in no time. He has worked on a very complex module and made it exactly as per the requirements with such ease. He was always available for any issue resolution and highly dedicated to the tasks. It is a pleasure working with Atul and he is an asset to any team.",
     videoTestimonyLink: null,
   },
+  {
+    id: 5,
+    project: "Compex Analytics",
+    name: "Prakhar Agarwal",
+    designation: "Team Lead",
+    image: "https://i.ibb.co/qxXxXxL/varun.jpg",
+    linkedIn: "https://www.linkedin.com/in/karan-dubey-b9a8b917b/",
+    testimony:
+      "Atul is a good professional to work with. He is a dedicated professional talented colleague. Keen to learn new technologies and a good team player. I worked with him on variety of projects where he showcased his strengths and capabilities.",
+    videoTestimonyLink: null,
+  },
 ];
 
 const links = {
@@ -253,9 +264,9 @@ const links = {
 
 const experience = [
   {
-    id: 3,
-    company: "Relate",
-    designation: "Freelance - Web Developer",
+    id: 4,
+    company: "Relate (Freelance)",
+    designation: "Web Developer",
     startDate: "2022-04-30",
     endDate: "",
     isCurrent: true,
@@ -264,8 +275,20 @@ const experience = [
     technologies: [],
   },
   {
+    id: 3,
+    company: "IT Cube (Outsourced)",
+    designation: "React JS Developer",
+    startDate: "2021-07-15",
+    endDate: "2022-01-15",
+    isCurrent: false,
+    description:
+      "I was an outsourced developer at IT Cubes. I was responsible for working on the Frontend of the internal application called 'LMS- Analytics'. It was Labour Management System. The direct client of the project was Shapoorji Pallonji. Before starting the project I was given with time to learn Django and create an api to integrate with 'Highcharts' in React. It was a dashboard with the purpose to show analytics in the form of different type of charts and graphs. It was a challenging project for me as it involved advance concepts like 'Redux along with thunks', and new concepts like 'Highcharts' and 'Cube JS`. In this project I came to know a lot of good people like our manager 'Ashwin Pathak' and the mentor to me was 'Omkar Jaltade' who were always supportive. Later on I was shifted to another project called 'Compex Analytics' which was much complex with tight deadlines. There I got support from teammates like Prakhar Agarwal, Sainath and Rohit Bhandari. It was an bitter-sweet experience as I had to break out of my comfort zone at a faster pace. I learned to debug my React application better after this project.",
+    projects: [],
+    technologies: [],
+  },
+  {
     id: 2,
-    company: "PTW",
+    company: "PTW (Outsourced)",
     designation: "React JS Developer",
     startDate: "2021-09-01",
     endDate: "2022-02-28",
@@ -277,7 +300,7 @@ const experience = [
   },
   {
     id: 1,
-    company: "Shethink",
+    company: "Shethink (In-House)",
     designation: "Sr. React Developer",
     startDate: "2020-06-01",
     endDate: "2022-04-30",
@@ -308,7 +331,7 @@ const pagesStrings = {
         " I’ve always been a lover of tech and that love brought me into the software development field. I’ve been into programming since 2016.",
       button_text: "Let’s Connect",
     },
-    Skills_section: {
+    skills_section: {
       title1: "Skills & ",
       title2: "Experience",
       sub_title:

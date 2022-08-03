@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Home.module.scss";
 import { Images } from "../../Images";
 import { BsArrowRight } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const TECHNOLOGY = [
   { id: 1, text: "HTML", image: Images.html },
@@ -11,6 +12,7 @@ const TECHNOLOGY = [
   { id: 5, text: "JavaScript", image: Images.javascript },
 ];
 export default function Technologies() {
+  const navigate = useNavigate();
   return (
     <div className="flex flex-wrap">
       {TECHNOLOGY.map((item) => {
@@ -23,7 +25,10 @@ export default function Technologies() {
           </div>
         );
       })}
-      <div className="flex justify-center items-center text-16px">
+      <div
+        className="flex justify-center items-center text-16px cursor-pointer"
+        onClick={() => navigate("skills")}
+      >
         View More <BsArrowRight color="#5454D4" />
       </div>
     </div>

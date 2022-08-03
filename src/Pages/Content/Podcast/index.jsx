@@ -5,6 +5,7 @@ import styles from "../Content.module.scss";
 export default function Podcast() {
   return (
     <div className={styles.podcast__wrap}>
+      <h1 className="">COMING SOON</h1>
       <div className={styles.podcast_banner}>
         <img
           src={Images.podcastBannerMobile}

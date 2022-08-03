@@ -6,7 +6,7 @@ import { pagesStrings } from "../../static.db";
 import { dateUtils } from "../../Utils";
 
 const {
-  home: { experience },
+  home: { experience, skills_section },
 } = pagesStrings;
 
 function getYearsRange(isCurrent, start, end) {
@@ -24,12 +24,12 @@ export default function Experience() {
           <div
             className={`${styles.title} flex flex-col sm:text-40px px-8 lg:p-0 capitalize`}
           >
-            {strings.Skills_section.title1}
-            <span>{strings.Skills_section.title2}</span>
+            {skills_section.title1}
+            <span>{skills_section.title2}</span>
           </div>
           <div className={`${styles.skills_sub_title} `}>
             <hr className={styles.skills_horizontal_line} />
-            {strings.Skills_section.sub_title}
+            {skills_section.sub_title}
           </div>
         </div>
         {/* //technology   */}

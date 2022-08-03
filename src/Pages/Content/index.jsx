@@ -16,19 +16,19 @@ export default function Content() {
         <button className={styles.tab} onClick={() => setTab("blog")}>
           {strings.content_tabs.blog}
         </button>
-        <button className={styles.tab} onClick={() => setTab("videos")}>
+        {/* <button className={styles.tab} onClick={() => setTab("videos")}>
           {strings.content_tabs.videos}
         </button>
         <button className={styles.tab} onClick={() => setTab("podcast")}>
           {strings.content_tabs.podcast}
-        </button>
+        </button> */}
       </div>
-      <div className={styles.content_search_section}>
+      {/* <div className={styles.content_search_section}>
         <div className={styles.search_body}>
           <span>{strings.search_title.title}</span>
           <input type="search" placeholder="Type Here" />
         </div>
-      </div>
+      </div> */}
       <div>
         {tab === "blog" && <Blog />}
         {tab === "blog" && <Blog />}

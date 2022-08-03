@@ -24,18 +24,17 @@ const Project = () => {
           {/* PROJECT BODY */}
           <div className={styles.project_body}>
             {projects.projects_list.map((project) => {
-              const spanClass = `text-project-card-dk-${project.color}`;
               return (
                 <Card
                   key={project.id}
                   className={[
                     styles.project_card,
                     "bg-black-100",
-                    "cursor:pointer",
+                    "cursor-pointer",
                   ].join(" ")}
                   data={project}
                 >
-                  <span className={spanClass}>{project.name}</span>
+                  <span style={{ color: project.color }}>{project.name}</span>
                 </Card>
               );
             })}

@@ -1,36 +1,36 @@
 {
-    "Intro_Section": {
-        "title": "My passion is to build useful Product.",
-        "sub_title_dark": "i’m Frontend developer & technical blogger.",
-        "sub_title_light": " I’ve always been a lover of tech and that love brought me into the software development field. I’ve been into programming since 2016.",
-        "button_text": "Let’s Connect"
-    },
-    "Skills_section": {
-        "title1": "Skills & ",
-        "title2": "Experince",
-        "sub_title": "😎 A specialist in frontend design. ✨ a passion of mine is development and solving problem through my skill"
-    },
-    "social_Link": {
-        "instagram": "Instagram",
-        "github": "Github",
-        "linkedin": "Linkedin"
-    },
-    "about_us_hero_section": {
-        "title": "i’m come from Devbhumi well known as Uttrakhand."
-    },
-    "quote_section": {
-        "quote": "i’m atul also know as “ tum apne aap ko developer khte ho” Quote  maker."
-    },
-    "description_with_image": {
-        "first_description": "development for me is like oxygen ",
-        "second_description": "but apart from this i’m fitness  enthusia and mallu photographer"
-    },
-    "content_tabs": {
-        "blog": "Blog",
-        "videos": "Videos",
-        "podcast": "Podcast"
-    },
-    "search_title": {
-        "title": "Search Blog"
-    }
+  "Intro_Section": {
+    "title": "My passion is to build useful Product.",
+    "sub_title_dark": "i’m Frontend developer & technical blogger.",
+    "sub_title_light": " I’ve always been a lover of tech and that love brought me into the software development field. I’ve been into programming since 2016.",
+    "button_text": "Let’s Connect"
+  },
+  "Skills_section": {
+    "title1": "Skills & ",
+    "title2": "Experience",
+    "sub_title": "😎 A specialist in frontend design. ✨ a passion of mine is development and solving problem through my skill"
+  },
+  "social_Link": {
+    "instagram": "Instagram",
+    "github": "Github",
+    "linkedin": "Linkedin"
+  },
+  "about_us_hero_section": {
+    "title": "i’m come from Devbhumi well known as Uttrakhand."
+  },
+  "quote_section": {
+    "quote": "i’m atul also know as “ tum apne aap ko developer khte ho” Quote  maker."
+  },
+  "description_with_image": {
+    "first_description": "development for me is like oxygen ",
+    "second_description": "but apart from this i’m fitness  enthusia and mallu photographer"
+  },
+  "content_tabs": {
+    "blog": "Blog",
+    "videos": "Videos",
+    "podcast": "Podcast"
+  },
+  "search_title": {
+    "title": "Search Blog"
+  }
 }

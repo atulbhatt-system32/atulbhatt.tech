@@ -1,80 +1,45 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import styles from "../Content.module.scss";
 import { Blog1, Blog2, Blog3, Watched, Heart } from "../../../Assets/images";
 import { Card } from "../../../Components";
+import axios from "axios";
 const Blog = () => {
-  const data = [
-    {
-      id: 1,
-      title: "Blog Title",
-      body: "Lorem ipsum dolor sit ametcons ectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      tag: "Tags- #react #kyu #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi",
-      content: "example content",
-      image: "../../../Assets/images/blogs/blog1.svg",
-      view: "32",
-      like: "32",
-    },
-    {
-      id: 2,
-      title: "Blog Title",
-      body: "Lorem ipsum dolor sit ametcons ectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      tag: "Tags- #react #kyu #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi",
-      content: "example content",
-      image: "Blog2",
-      view: "32",
-      like: "32",
-    },
-    {
-      id: 3,
-      title: "Blog Title",
-      body: "Lorem ipsum dolor sit ametcons ectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      tag: "Tags- #react #kyu #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi",
-      content: "example content",
-      image: "Blog3",
-      view: "32",
-      like: "32",
-    },
-    {
-      id: 4,
-      title: "Blog Title",
-      body: "Lorem ipsum dolor sit ametcons ectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      tag: "Tags- #react #kyu #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi",
-      content: "example content",
-      image: "Blog1",
-      view: "32",
-      like: "32",
-    },
-    {
-      id: 5,
-      title: "Blog Title",
-      body: "Lorem ipsum dolor sit ametcons ectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      tag: "Tags- #react #kyu #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi",
-      content: "example content",
-      image: "Blog2",
-      view: "32",
-      like: "32",
-    },
-    {
-      id: 6,
-      title: "Blog Title",
-      body: "Lorem ipsum dolor sit ametcons ectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      tag: "Tags- #react #kyu #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi #ptanahi",
-      content: "example content",
-      image: "Blog3",
-      view: "32",
-      like: "32",
-    },
-  ];
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    axios
+      .get("https://dev.to/api/articles?username=atulbhattsystem32&top=7")
+      .then((res) => {
+        let _data = res?.data?.map((article) => {
+          console.log(article);
+          return {
+            id: article.id,
+            title: article.title,
+            body: article.description,
+            tag: article?.tag_list?.join(" #"),
+            content: article.description,
+            image: article.cover_image,
+            like: article.public_reactions_count,
+            reading_time_minutes: article.reading_time_minutes,
+            url: article.url,
+          };
+        });
+        setData(_data);
+      });
+  }, []);
 
   return (
     <section className={styles.blog_section}>
       {data.map((item) => {
         return (
-          <Card className={styles.card__wrap} key={item.id}>
+          <Card
+            className={styles.card__wrap}
+            key={item.id}
+            data={{ url: item.url }}
+          >
             <article className={styles.card}>
               <aside className={styles.card_aside}>
                 <figure className={styles.card_figure}>
-                  <img src={Blog1} alt="Blog1" />
+                  <img src={item.image} alt="Blog1" />
                 </figure>
               </aside>
               <div className={styles.card_content}>
@@ -85,16 +50,16 @@ const Blog = () => {
                   <p className={styles.card_copy}>{item.body}</p>
                 </div>
                 <div className={styles.card_tag}>
-                  <p>{item.tag}</p>
+                  <p>#{item.tag}</p>
                 </div>
                 <div className={styles.card_footer}>
                   <div className={styles.card_watched}>
                     <img src={Watched} alt="watched" />
-                    <span>{item.view} People</span>
+                    <span>{item.reading_time_minutes} min read</span>
                   </div>
                   <div className={styles.card_liked}>
                     <img src={Heart} alt="liked" />
-                    <span>{item.like} People</span>
+                    <span>{item.like} Likes</span>
                   </div>
                 </div>
               </div>

@@ -1,12 +1,14 @@
 import React from "react";
 import { SearchSkill, SkillsContainer } from "./Sections/index";
-// import { Navbar } from "../../Components";
+import { Header } from "../../Components";
 const Skills = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <div>
+        <Header />
+      </div>
       <main>
-        <SearchSkill />
+        {/* <SearchSkill /> */}
         <SkillsContainer />
       </main>
     </div>

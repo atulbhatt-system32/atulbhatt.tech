@@ -169,7 +169,7 @@ const testimonials = [
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
     linkedIn: "https://www.linkedin.com/in/sreeja-k-b9a8b917b/",
     testimony:
-      "Atul is self motivated and an exceptional learner who mastered the application in no time. He has worked on a very complex module and made it exactly as per the requirements with such ease. He was always available for any issue resolution and highly dedicated to the tasks. It is a pleasure working with Atul and he is an asset to any team.",
+      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
     videoTestimonyLink: null,
   },
 
@@ -181,7 +181,7 @@ const testimonials = [
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
     linkedIn: "https://www.linkedin.com/in/karan-dubey-b9a8b917b/",
     testimony:
-      "Atul is self motivated and an exceptional learner who mastered the application in no time. He has worked on a very complex module and made it exactly as per the requirements with such ease. He was always available for any issue resolution and highly dedicated to the tasks. It is a pleasure working with Atul and he is an asset to any team.",
+      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
     videoTestimonyLink: null,
   },
   {
@@ -192,7 +192,7 @@ const testimonials = [
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
     linkedIn: "https://www.linkedin.com/in/karan-dubey-b9a8b917b/",
     testimony:
-      "Atul is self motivated and an exceptional learner who mastered the application in no time. He has worked on a very complex module and made it exactly as per the requirements with such ease. He was always available for any issue resolution and highly dedicated to the tasks. It is a pleasure working with Atul and he is an asset to any team.",
+      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
     videoTestimonyLink: null,
   },
   {
@@ -203,7 +203,7 @@ const testimonials = [
     image: "https://i.ibb.co/qxXxXxL/varun.jpg",
     linkedIn: "https://www.linkedin.com/in/karan-dubey-b9a8b917b/",
     testimony:
-      "Atul is a good professional to work with. He is a dedicated professional talented colleague. Keen to learn new technologies and a good team player. I worked with him on variety of projects where he showcased his strengths and capabilities.",
+      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
     videoTestimonyLink: null,
   },
 ];

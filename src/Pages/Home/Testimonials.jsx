@@ -9,22 +9,26 @@ const {
 
 const TestimonialCard = ({ data: { classes, testimonial } }) => {
   return (
-    <div className="flex-col border-white-100 border bg-white-700 text-black rounded-xl px-8 py-6">
-      <div>
-        <img
-          src="https://i.pravatar.cc/100"
-          alt="testimonial"
-          height="120"
-          width="120"
-          className="rounded-full"
-        />
-      </div>
-      <div className={styles.testimonial_card_body}>
-        <div className={styles.testimonial_card_body_title}>
-          {testimonial.name}
+    <div className={styles.testimonial_card}>
+      <div className={styles.testimonial_card_wrap}>
+        <div className={styles.testimonial_card_media}>
+          <img
+            src="https://i.pravatar.cc/100"
+            alt="testimonial"
+            height="120"
+            width="120"
+            className="rounded-full"
+          />
         </div>
+        <div className={styles.testimonial_card_text}>
+          <div className={styles.testimonial_card_title}>
+            {testimonial.name}
+          </div>
 
-        <div className="text-black text-2xl">{testimonial.testimony}</div>
+          <div className={styles.testimonial_card_body}>
+            {testimonial.testimony}
+          </div>
+        </div>
       </div>
     </div>
   );

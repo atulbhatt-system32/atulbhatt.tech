@@ -137,8 +137,25 @@
   }
   .testimonial_body {
     @apply flex flex-wrap justify-center gap-6 text-24px xl:justify-start 2xl:text-32px 2xl:gap-16 font-medium;
-    .project_card {
-      @apply min-w-234px min-h-176px p-6 flex flex-col items-center justify-center;
+    .testimonial_card {
+      @apply bg-white-700 rounded-xl px-6 py-5 max-w-[280px] xl:max-w-[440px];
+      .testimonial_card_wrap {
+        @apply flex flex-col gap-5;
+        .testimonial_card_media {
+          img {
+            @apply max-w-[88px] max-h-[88px] xl:max-w-[120px] xl:max-h-[120px];
+          }
+        }
+        .testimonial_card_text {
+          @apply flex flex-col gap-4;
+          .testimonial_card_title {
+            @apply text-16px text-black-0 font-bold md:text-18px lg:text-20px xl:text-24px;
+          }
+          .testimonial_card_body {
+            @apply text-12px text-black-400 font-normal lg:text-14px xl:text-16px;
+          }
+        }
+      }
     }
   }
 }

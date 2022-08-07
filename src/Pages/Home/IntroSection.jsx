@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Home.module.scss";
-import strings from "../../strings.json";
-import { pagesStrings } from "../../static.db";
+import { links, pagesStrings } from "../../static.db";
 
 export default function IntroSection() {
   return (
@@ -19,7 +18,10 @@ export default function IntroSection() {
         </span>
       </div>
       <div className={styles.button_upper_text}>Download Resume</div>
-      <button className={styles.primary_button}>
+      <button
+        className={styles.primary_button}
+        onClick={() => window.open(links.resume.url)}
+      >
         {pagesStrings.home.Intro_Section.button_text}
       </button>
     </div>

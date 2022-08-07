@@ -13,7 +13,7 @@ const TestimonialCard = ({ data: { classes, testimonial } }) => {
       <div className={styles.testimonial_card_wrap}>
         <div className={styles.testimonial_card_media}>
           <img
-            src="https://i.pravatar.cc/100"
+            src={testimonial.image}
             alt="testimonial"
             height="120"
             width="120"

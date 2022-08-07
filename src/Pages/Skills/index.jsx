@@ -8,7 +8,7 @@ const Skills = () => {
         <Header />
       </div>
       <main>
-        {/* <SearchSkill /> */}
+        <SearchSkill />
         <SkillsContainer />
       </main>
     </div>

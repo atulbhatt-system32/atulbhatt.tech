@@ -1,5 +1,7 @@
 import React from "react";
-import { LightMode, HamBurger } from "../../Assets/images";
+// import { LightMode, HamBurger } from "../../Assets/images";
+import LightMode from "../../Assets/images/navbar/lightMode.svg";
+import HamBurger from "../../Assets/images/navbar/hamBurger.svg";
 import { layoutStrings } from "../../static.db";
 
 const Navbar = () => {

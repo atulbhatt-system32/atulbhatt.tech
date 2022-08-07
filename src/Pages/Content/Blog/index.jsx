@@ -1,6 +1,8 @@
 import { React, useState, useEffect } from "react";
 import styles from "../Content.module.scss";
-import { Blog1, Blog2, Blog3, Watched, Heart } from "../../../Assets/images";
+// import { Watched, Heart } from "../../../Assets/images";
+import Watched from "../../../Assets/images/blogs/watched.svg";
+import Heart from "../../../Assets/images/blogs/heart.svg";
 import { Card } from "../../../Components";
 import axios from "axios";
 const Blog = () => {

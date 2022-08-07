@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./SearchSkill.module.scss";
-import { Search, Idea } from "../../../../Assets/images";
+// import { Search, Idea } from "../../../../Assets/images";
+import Search from "../../../../Assets/images/skills/searchSkill.svg";
+import Idea from "../../../../Assets/images/skills/ideaSkill.svg";
 const SearchSkill = () => {
   return (
     <section className={styles.search_skill}>

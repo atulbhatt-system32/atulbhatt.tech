@@ -1,6 +1,10 @@
 import React from "react";
 import styles from "./Footer.module.scss";
-import { Facebook, Instagram, Twitter, Linkedin } from "../../Assets/images";
+// import { Facebook, Instagram, Twitter, Linkedin } from "../../Assets/images/index";
+import Facebook from "../../Assets/images/footer/facebook.svg";
+import Instagram from "../../Assets/images/footer/instagram.svg";
+import Twitter from "../../Assets/images/footer/twitter.svg";
+import Linkedin from "../../Assets/images/footer/linkedin.svg";
 import { layoutStrings, links } from "../../static.db";
 const Footer = () => {
   return (

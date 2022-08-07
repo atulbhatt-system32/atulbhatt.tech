@@ -6,7 +6,7 @@ import { Images } from "../../Images";
 export default function DescriptionWithImage() {
   return (
     <div className={styles.description_with_image__wrap}>
-      <div className={`${styles.about_div} mb-4 lg:mb-0`}>
+      <div className={`${styles.about_div} lg:mb-0`}>
         <img src={Images.descImage1} alt="" />
         <p className={styles.description}>
           {pagesStrings.aboutme.description_with_image.first_description}

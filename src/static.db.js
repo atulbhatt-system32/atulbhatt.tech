@@ -409,6 +409,19 @@ const pagesStrings = {
         "https://anchor.fm/atul-bhatt/embed/episodes/Know-It-Today--S01--E01--Time--Lifestyle--Passion-Part-1-e14pfr8",
       ],
     },
+    videos_tab: {
+      videos_list: [
+        {
+          title:
+            "Python Programming Using Jupyter Notebook (Anaconda) | Know It Today | Intro to Jupyter Notebook",
+          url: "https://www.youtube.com/embed/nci8Ue2BXi0",
+        },
+        {
+          title: "Path To Programming | 1.1 Installing the latest Windows 10",
+          url: "https://www.youtube.com/embed/VAgj-u_tp0Y",
+        },
+      ],
+    },
   },
 };
 

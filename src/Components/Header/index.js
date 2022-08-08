@@ -33,7 +33,7 @@ export default function Header() {
           onClick={handleMenu}
         />
         {showMenu && (
-          <div className="absolute md:top-16 top-12 md:right-8 right-0">
+          <div className="absolute md:top-16 top-12 md:right-8 right-0 z-50">
             <SideBar fun={handleMenu} />
           </div>
         )}

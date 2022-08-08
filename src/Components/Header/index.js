@@ -3,6 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 import DarkMode from "../DarkMode";
 import SideBar from "../SideBar";
+import { ThemeContext } from "../../App";
 import { layoutStrings } from "../../static.db";
 
 export default function Header() {
@@ -12,12 +13,16 @@ export default function Header() {
     setShowMenu(!showMenu);
   };
 
+  const { theme } = React.useContext(ThemeContext);
+
   return (
     <div
       className="flex justify-between p-4 lg:p-8"
       style={{
         background:
-          "linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), #222222",
+          theme === "light"
+            ? "#FAFAFB"
+            : "linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), #222222",
       }}
     >
       <div

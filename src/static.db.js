@@ -402,6 +402,13 @@ const pagesStrings = {
     search_title: {
       title: "Search Blog",
     },
+
+    blog_tab: {},
+    podcast_tab: {
+      podcast_list: [
+        "https://anchor.fm/atul-bhatt/embed/episodes/Know-It-Today--S01--E01--Time--Lifestyle--Passion-Part-1-e14pfr8",
+      ],
+    },
   },
 };
 

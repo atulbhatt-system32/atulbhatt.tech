@@ -18,10 +18,10 @@ export default function Content() {
         </button>
         {/* <button className={styles.tab} onClick={() => setTab("videos")}>
           {strings.content_tabs.videos}
-        </button>
+        </button> */}
         <button className={styles.tab} onClick={() => setTab("podcast")}>
           {strings.content_tabs.podcast}
-        </button> */}
+        </button>
       </div>
       {/* <div className={styles.content_search_section}>
         <div className={styles.search_body}>

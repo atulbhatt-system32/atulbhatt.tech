@@ -4,6 +4,7 @@ import styles from "./Content.module.scss";
 import strings from "../../strings.json";
 import Podcast from "./Podcast";
 import Blog from "./Blog";
+import Videos from "./Videos";
 
 export default function Content() {
   const [tab, setTab] = useState("blog");
@@ -31,7 +32,7 @@ export default function Content() {
       </div>
       <div>
         {tab === "blog" && <Blog />}
-        {tab === "blog" && <Blog />}
+        {tab === "videos" && <Videos />}
         {tab === "podcast" && <Podcast />}
       </div>
 

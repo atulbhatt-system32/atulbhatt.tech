@@ -1,6 +1,6 @@
 import React from "react";
 import { SearchSkill, SkillsContainer } from "./Sections/index";
-import { Header } from "../../Components";
+import { Footer, Header } from "../../Components";
 const Skills = () => {
   return (
     <div>
@@ -11,6 +11,9 @@ const Skills = () => {
         <SearchSkill />
         <SkillsContainer />
       </main>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 };

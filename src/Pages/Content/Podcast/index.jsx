@@ -17,8 +17,8 @@ export default function Podcast() {
         />
         <img
           src={Images.podcastBannerWeb}
-          alt=""
-          className={styles.banner_web}
+          alt="banner"
+          className={`${styles.banner_web} h-70 w-full object-cover`}
         />
       </div>
       <div className="flex">
@@ -28,9 +28,9 @@ export default function Podcast() {
               <iframe
                 title="podcast"
                 src={item}
-                height="102px"
-                width="500px"
-                frameborder="0"
+                height="100%"
+                width="100%"
+                frameBorder="0"
                 scrolling="no"
                 allowFullScreen
               />

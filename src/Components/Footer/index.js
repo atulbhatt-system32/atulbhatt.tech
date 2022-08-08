@@ -24,21 +24,25 @@ const Footer = () => {
             src={Linkedin}
             alt="LinkedIn"
             onClick={() => window.open(links.socialLinks.linkedIn.url)}
+            className="cursor-pointer"
           />
           <img
             src={Twitter}
             alt="Twitter"
             onClick={() => window.open(links.socialLinks.twitter.url)}
+            className="cursor-pointer"
           />
           <img
             src={Facebook}
             alt="Facebook"
             onClick={() => window.open(links.socialLinks.facebook.url)}
+            className="cursor-pointer"
           />
           <img
             src={Instagram}
             alt="Instagram"
             onClick={() => window.open(links.socialLinks.instagram.url)}
+            className="cursor-pointer"
           />
         </div>
         {/* COPYRIGHT */}

@@ -23,7 +23,7 @@
   .podcast_banner {
     @apply w-full;
     img {
-      @apply h-podcast-banner sm:h-podcast-banner-sm md:h-podcast-banner-lg;
+      @apply h-podcast-banner sm:h-podcast-banner-sm md:h-podcast-banner-lg lg:h-64;
     }
     .banner_mobile {
       @apply sm:hidden;

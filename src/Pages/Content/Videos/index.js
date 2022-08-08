@@ -10,26 +10,26 @@ const {
 export default function Videos() {
   return (
     <div className="flex">
-      <div className="flex justify-center items-center">
+      <div className="flex flex-col md:flex-row lg:flex-row xl:flex-row items-center w-full">
         {videos_list.map((video, index) => {
           return (
-            <div
-              key={index}
-              className="flex flex-col justify-center items-center"
-            >
+            <div key={index} className="flex flex-col items-center p-2">
               <div className="flex justify-center items-center">
                 <iframe
-                  width="400"
+                  width="350"
                   height="230"
                   src={video.url}
                   title={video.title}
-                  frameborder="0"
+                  frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
+                  allowFullScreen
                 />
               </div>
               <div className="flex justify-center items-center">
-                <span className="w-80">{video.title}</span>
+                <span className="w-80 text-center">
+                  {video.title.slice(0, 60)}
+                  {video.title.length > 60 && "..."}
+                </span>
               </div>
             </div>
           );

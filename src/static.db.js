@@ -332,7 +332,7 @@ const layoutStrings = {
   },
   footer: {
     phone: "Phone: +91-8958318394",
-    email: "Email: atulbhatt98@gmail.com",
+    email: "Email: mratulbhatt97+webdev@gmail.com",
     copyright: "© 2022 Atul Bhatt. Designed by AnkyStudio.",
   },
 };

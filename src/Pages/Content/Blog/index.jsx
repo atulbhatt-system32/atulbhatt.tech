@@ -12,7 +12,6 @@ const Blog = () => {
       .get("https://dev.to/api/articles?username=atulbhattsystem32&top=7")
       .then((res) => {
         let _data = res?.data?.map((article) => {
-          console.log(article);
           return {
             id: article.id,
             title: article.title,

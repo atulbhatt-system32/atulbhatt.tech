@@ -35,7 +35,7 @@ const TestimonialCard = ({ data: { classes, testimonial } }) => {
 };
 export default function Testimonials() {
   return (
-    <section className="bg-black-200">
+    <section className="dark:bg-black-200">
       <Container>
         <div className={styles.testimonials}>
           {/* PROJECT HEAD */}

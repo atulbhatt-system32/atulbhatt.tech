@@ -8,7 +8,7 @@ import Linkedin from "../../Assets/images/footer/linkedin.svg";
 import { layoutStrings, links } from "../../static.db";
 const Footer = () => {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} dark:bg-midnight`}>
       {/* CONTACT */}
       <div className={styles.footer__wrap}>
         <div className={styles.footer_contact}>

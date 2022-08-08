@@ -1,7 +1,7 @@
 .sidebar__wrap {
-  @apply flex p-4 px-6 flex-col lg:w-sidebar-large w-sidebar-md;
+  @apply flex dark:text-white-900 p-4 px-6 flex-col lg:w-sidebar-large w-sidebar-md border-1;
   .title {
-    @apply flex  font-semibold justify-between items-center;
+    @apply flex font-semibold justify-between items-center;
     h1 {
       @apply lg:text-32px text-24px;
     }

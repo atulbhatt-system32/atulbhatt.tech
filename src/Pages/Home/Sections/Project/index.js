@@ -8,7 +8,7 @@ const {
 } = pagesStrings;
 const Project = () => {
   return (
-    <section className="bg-black-200">
+    <section className="dark:bg-black-200">
       <Container>
         <div className={styles.project}>
           {/* PROJECT HEAD */}

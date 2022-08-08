@@ -26,7 +26,7 @@ export default function Header() {
       }}
     >
       <div
-        className={`font-semibold flex text-24 cursor-pointer font-logo`}
+        className={`font-semibold flex text-24 cursor-pointer font-logo dark:text-white-900`}
         onClick={() => navigate("/")}
       >
         {layoutStrings.navbar.logoText}

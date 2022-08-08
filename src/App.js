@@ -8,8 +8,9 @@ const ThemeContext = React.createContext();
 
 function App() {
   const { theme, changeTheme, toggleTheme } = useTheme();
+
   return (
-    <div className="App">
+    <div className={`App ${theme}`}>
       <ThemeContext.Provider value={{ theme, changeTheme, toggleTheme }}>
         <Router>
           <Routes>

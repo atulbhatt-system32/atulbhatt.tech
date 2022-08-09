@@ -9,12 +9,12 @@ const SearchSkill = () => {
       <div className={styles.search_skill__wrap}>
         <div className={styles.search_skill_box}>
           <div className={styles.search_skill_img}>
-            <img src={Search} alt="search" />
+            <img src={Search} alt="coming So" />
           </div>
           <div className={styles.search_skill_input}>
             <div className={styles.search_skill_input_head}>Search Skills</div>
             <div className={styles.search_skill_input_box}>
-              <input type="text" placeholder="Type Here"></input>
+              <input type="text" placeholder="Coming Soon"></input>
             </div>
           </div>
         </div>

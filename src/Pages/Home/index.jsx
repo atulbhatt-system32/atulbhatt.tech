@@ -7,10 +7,12 @@ import Skills from "./Skills";
 import Technologies from "./Technologies";
 import SocialLinks from "./SocialLinks";
 import Testimonials from "./Testimonials";
+import { ThemeContext } from "../../App";
+import React from "react";
 export default function Home() {
+  const { theme } = React.useContext(ThemeContext);
   return (
-    <div>
-      {/* <Navbar /> */}
+    <div className={theme}>
       <section>
         <Header />
         <SocialLinks />

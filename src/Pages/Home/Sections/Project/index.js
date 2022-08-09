@@ -8,7 +8,7 @@ const {
 } = pagesStrings;
 const Project = () => {
   return (
-    <section className="bg-black-200">
+    <section className="dark:bg-black-200">
       <Container>
         <div className={styles.project}>
           {/* PROJECT HEAD */}
@@ -45,7 +45,14 @@ const Project = () => {
                 styles.project_card,
               ].join(" ")}
             >
-              <div className="text-white-900 flex flex-col items-center justify-center pt-8">
+              <div
+                className="text-white-900 flex flex-col items-center justify-center pt-8"
+                onClick={() =>
+                  window.open(
+                    "https://atulbhatt.notion.site/Projects-15070509857444a38e4d7388092a08d9"
+                  )
+                }
+              >
                 <div>View All</div>
                 <div>&rarr;</div>
               </div>

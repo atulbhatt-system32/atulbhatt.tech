@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: "class",
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     minHeight: {
@@ -24,6 +25,7 @@ module.exports = {
       "200px": "200px",
       "280px": "280px",
       "360px": "360px",
+      "400px": "400px",
       "440px": "440px",
       "520px": "520px",
     },
@@ -48,7 +50,7 @@ module.exports = {
       transparent: "transparent",
       current: "currentColor",
       purple: "#3f3cbb",
-      midnight: "#2B2B2B;",
+      midnight: "#2B2B2B",
       metal: "#565584",
       tahiti: "#3ab7bf",
       silver: "#ecebff",
@@ -68,6 +70,7 @@ module.exports = {
         "blue-200": "#5454D4",
         "blue-500": "rgba(84, 84, 212, 1)",
         "blue-600": "#2A7FFF",
+        "blue-900": "#070724",
         green: "rgba(0, 198, 101, 1)",
       },
       white: {
@@ -85,6 +88,7 @@ module.exports = {
         200: "#222222",
         400: "#4E4E50",
         500: "#575559",
+        900: "#070724",
         0: "#000000",
       },
     },
@@ -137,5 +141,4 @@ module.exports = {
       logo: ["'BrightWall'"],
     },
   },
-  plugins: [],
 };

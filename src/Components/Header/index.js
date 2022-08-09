@@ -3,6 +3,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 import { useNavigate } from "react-router-dom";
 import DarkMode from "../DarkMode";
 import SideBar from "../SideBar";
+import { ThemeContext } from "../../App";
 import { layoutStrings } from "../../static.db";
 
 export default function Header() {
@@ -12,16 +13,20 @@ export default function Header() {
     setShowMenu(!showMenu);
   };
 
+  const { theme } = React.useContext(ThemeContext);
+
   return (
     <div
       className="flex justify-between p-4 lg:p-8"
       style={{
         background:
-          "linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), #222222",
+          theme === "light"
+            ? "#FAFAFB"
+            : "linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), #222222",
       }}
     >
       <div
-        className="font-semibold flex text-24 cursor-pointer font-logo"
+        className={`font-semibold flex text-24 cursor-pointer font-logo dark:text-white-900`}
         onClick={() => navigate("/")}
       >
         {layoutStrings.navbar.logoText}
@@ -33,7 +38,7 @@ export default function Header() {
           onClick={handleMenu}
         />
         {showMenu && (
-          <div className="absolute md:top-16 top-12 md:right-8 right-0">
+          <div className="absolute md:top-16 top-12 md:right-8 right-0 z-50">
             <SideBar fun={handleMenu} />
           </div>
         )}

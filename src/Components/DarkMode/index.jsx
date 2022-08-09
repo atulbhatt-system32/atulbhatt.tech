@@ -1,17 +1,7 @@
+import React from "react";
 import "./DarkMode.css";
-import { ChangeEventHandler } from "react";
-import {MdDarkMode} from 'react-icons/md'
-
-const setDark = () => {
-  localStorage.setItem("theme", "dark");
-  document.documentElement.setAttribute("data-theme", "dark");
-};
-
-const setLight = () => {
-  localStorage.setItem("theme", "light");
-  document.documentElement.setAttribute("data-theme", "light");
-};
-
+import { MdDarkMode } from "react-icons/md";
+import { ThemeContext } from "../../App";
 const storedTheme = localStorage.getItem("theme");
 
 const prefersDark =
@@ -22,20 +12,14 @@ const defaultDark =
   storedTheme === "dark" || (storedTheme === null && prefersDark);
 
 if (defaultDark) {
-  setDark();
+  // themeUtils.setTheme("dark");
 }
 
-const toggleTheme = (e) => {
-  if (e.target.checked) {
-    setDark();
-  } else {
-    setLight();
-  }
-};
-
 const DarkMode = () => {
+  const { toggleTheme } = React.useContext(ThemeContext);
+
   return (
-    <div className="toggle-theme-wrapper ">
+    <div className="toggle-theme-wrapper">
       <label className="toggle-theme flex" htmlFor="checkbox">
         <input
           type="checkbox"
@@ -44,7 +28,7 @@ const DarkMode = () => {
           defaultChecked={defaultDark}
           className="dark_mode_checkbox"
         />
-        <MdDarkMode/>
+        <MdDarkMode />
       </label>
     </div>
   );

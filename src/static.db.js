@@ -150,26 +150,27 @@ const routes = {
 };
 
 const testimonials = [
-  {
-    id: 1,
-    project: "Samadhan",
-    name: "Varun",
-    designation: "Founder",
-    image: "https://i.ibb.co/qxXxXxL/varun.jpg",
-    linkedIn: "https://www.linkedin.com/in/varun-samadhan-b9a8b917b/",
-    testimony:
-      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
-    videoTestimonyLink: null,
-  },
+  // {
+  //   id: 1,
+  //   project: "Samadhan",
+  //   name: "Varun",
+  //   designation: "Founder",
+  //   image: "https://drive.google.com/uc?id=1LfdXvK3J0OicF4AIe7LnIrzEBugYC6aL",
+  //   linkedIn: "https://www.linkedin.com/in/soganivarun/",
+  //   testimony:
+  //     "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
+  //   videoTestimonyLink: null,
+  // },
   {
     id: 2,
     project: "Side",
     name: "Sreeja",
-    designation: "Team Lead",
-    image: "https://i.ibb.co/qxXxXxL/varun.jpg",
-    linkedIn: "https://www.linkedin.com/in/sreeja-k-b9a8b917b/",
+    designation: "Lead Python Developer at PTW",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C5603AQEuDBADdwTSHA/profile-displayphoto-shrink_400_400/0/1606585161841?e=1665619200&v=beta&t=NSBj6XyZh1DKXFVnf06t1u7ZAAKrsQeW-Ow477Xmyow",
+    linkedIn: "https://www.linkedin.com/in/sreeja-vijayakumar/",
     testimony:
-      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
+      "Atul is self motivated and an exceptional learner.He has worked on a very complex module and made it exactly as per the requirements.  It is a pleasure working with Atul and he is an asset to any team.",
     videoTestimonyLink: null,
   },
 
@@ -177,33 +178,36 @@ const testimonials = [
     id: 3,
     project: "TealBox",
     name: "Karan Dubey",
-    designation: "Team Lead",
-    image: "https://i.ibb.co/qxXxXxL/varun.jpg",
-    linkedIn: "https://www.linkedin.com/in/karan-dubey-b9a8b917b/",
+    designation: "EiR",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4D03AQGiLbwtIwyNdQ/profile-displayphoto-shrink_400_400/0/1592725044883?e=1665619200&v=beta&t=hV4LjF_6XFGOiSyAQUXlv-kTuF3qZG4A_7PD4-hj-lQ",
+    linkedIn: "https://www.linkedin.com/in/dubeykaran/",
     testimony:
-      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
+      "We reached out to Atul for our website and the entire process of handout was very very smooth. He committed to a timeline of around 7 days and I had the website in 3 days.",
     videoTestimonyLink: null,
   },
-  {
-    id: 4,
-    project: "BigOn",
-    name: "Rajesh Durai",
-    designation: "Team Lead",
-    image: "https://i.ibb.co/qxXxXxL/varun.jpg",
-    linkedIn: "https://www.linkedin.com/in/karan-dubey-b9a8b917b/",
-    testimony:
-      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
-    videoTestimonyLink: null,
-  },
+  // {
+  //   id: 4,
+  //   project: "BigOn",
+  //   name: "Rajesh Durai",
+  //   designation: "Entrepreneur",
+  //   image:
+  //     "https://media-exp1.licdn.com/dms/image/C5603AQEeTkLIUaU3zA/profile-displayphoto-shrink_400_400/0/1636134184515?e=1665619200&v=beta&t=ZkX9QQ4pmEgsut-gBoZ9ZeTD6lF6u4CKgNqrQ2cueLY",
+  //   linkedIn: "https://www.linkedin.com/in/rajeshdurai/",
+  //   testimony:
+  //     "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
+  //   videoTestimonyLink: null,
+  // },
   {
     id: 5,
     project: "Compex Analytics",
     name: "Prakhar Agarwal",
     designation: "Team Lead",
-    image: "https://i.ibb.co/qxXxXxL/varun.jpg",
-    linkedIn: "https://www.linkedin.com/in/karan-dubey-b9a8b917b/",
+    image:
+      "https://media-exp1.licdn.com/dms/image/C4E03AQHcumH06V9JlQ/profile-displayphoto-shrink_400_400/0/1604421416706?e=1665619200&v=beta&t=Sagu3k_8tMjTJwOl2Rup_4vZlN07u0gNoVoSv_TXPbs",
+    linkedIn: "https://www.linkedin.com/in/prakhar-agarwal-998b197a/",
     testimony:
-      "It was a phenomenal job done by the team. They were very responsive and provided a great service. I would definitely recommend them to anyone.",
+      "Atul is a good professional to work with. He is a dedicated professional and a talented colleague . I worked with him on variety of projects where he show case his strengths and capabilities.",
     videoTestimonyLink: null,
   },
 ];
@@ -264,6 +268,17 @@ const links = {
 
 const experience = [
   {
+    id: 5,
+    company: "InfoKoders (Part Time)",
+    designation: "Sr. React Developer",
+    startDate: "2022-04-30",
+    endDate: "",
+    isCurrent: true,
+    description: "",
+    projects: [],
+    technologies: [],
+  },
+  {
     id: 4,
     company: "Relate (Freelance)",
     designation: "Web Developer",
@@ -317,7 +332,7 @@ const layoutStrings = {
   },
   footer: {
     phone: "Phone: +91-8958318394",
-    email: "Email: atulbhatt98@gmail.com",
+    email: "Email: mratulbhatt97+webdev@gmail.com",
     copyright: "© 2022 Atul Bhatt. Designed by AnkyStudio.",
   },
 };
@@ -386,6 +401,26 @@ const pagesStrings = {
 
     search_title: {
       title: "Search Blog",
+    },
+
+    blog_tab: {},
+    podcast_tab: {
+      podcast_list: [
+        "https://anchor.fm/atul-bhatt/embed/episodes/Know-It-Today--S01--E01--Time--Lifestyle--Passion-Part-1-e14pfr8",
+      ],
+    },
+    videos_tab: {
+      videos_list: [
+        {
+          title:
+            "Python Programming Using Jupyter Notebook (Anaconda) | Know It Today | Intro to Jupyter Notebook",
+          url: "https://www.youtube.com/embed/nci8Ue2BXi0",
+        },
+        {
+          title: "Path To Programming | 1.1 Installing the latest Windows 10",
+          url: "https://www.youtube.com/embed/VAgj-u_tp0Y",
+        },
+      ],
     },
   },
 };

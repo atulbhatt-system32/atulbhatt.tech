@@ -18,7 +18,7 @@ function App() {
             <Route exact path={routes.aboutMe.path} element={<AboutUs />} />
             <Route exact path={routes.content.path} element={<Content />} />
             <Route exact path={routes.skills.path} element={<Skills />} />
-            <Route exact path={routes.notFound.path} element={<NotFound />} />
+            <Route exact path="*" element={<NotFound />} />
           </Routes>
         </Router>
       </ThemeContext.Provider>

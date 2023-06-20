@@ -1,5 +1,4 @@
 import { Header } from "../../Components";
-import error from "../../Assets/images/notFound/error.svg";
 import styles from "./NotFound.module.scss";
 import { useNavigate } from "react-router-dom";
 const NotFound = () => {
@@ -9,7 +8,7 @@ const NotFound = () => {
       <Header />
       <div className={styles.not_found}>
         <div className={styles.not_found_head}>
-          <img src={error} alt={styles.error_img} />
+          <img src="/error.svg" alt={styles.error_img} />
         </div>
         <div className={styles.not_found_body}>
           <p>

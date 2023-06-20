@@ -9,7 +9,7 @@ import Cursor from "./home/cursor.svg";
 import Blog1 from "./blogs/blog1.svg";
 import Blog2 from "./blogs/blog2.svg";
 import Blog3 from "./blogs/blog3.svg";
-import Watched from "./blogs/watched.svg";
+
 import Heart from "./blogs/heart.svg";
 import Idea from "./skills/ideaSkill.svg";
 import Search from "./skills/searchSkill.svg";
@@ -25,7 +25,6 @@ export {
   Blog1,
   Blog2,
   Blog3,
-  Watched,
   Heart,
   Idea,
   Search,

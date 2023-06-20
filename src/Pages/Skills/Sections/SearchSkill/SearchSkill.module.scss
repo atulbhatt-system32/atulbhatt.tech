@@ -1,0 +1,46 @@
+.search_skill {
+  @apply p-4 xl:px-24 xl:pt-24 xl:pb-20;
+  .search_skill__wrap {
+    @apply flex flex-col gap-6 md:flex-row md:justify-between md:items-center;
+    .search_skill_box {
+      @apply flex justify-between items-center p-3 gap-4 dark:bg-black-50 bg-white-300 rounded-md shadow-custom md:flex-1 md:gap-0;
+      .search_skill_img {
+        img {
+          @apply max-w-80%;
+        }
+      }
+      .search_skill_input {
+        @apply flex flex-col gap-2 md:flex-row md:items-center md:flex-1 md:gap-3;
+        .search_skill_input_head {
+          @apply font-bold text-14px xl:text-16px;
+        }
+        .search_skill_input_box {
+          @apply md:grow;
+          input {
+            @apply py-2 px-5 rounded-lg text-black-50 w-100%;
+          }
+          ::placeholder {
+            @apply text-black-50 text-12px font-normal;
+          }
+        }
+      }
+    }
+    .search_skill_match {
+      @apply flex justify-between items-center py-3 px-5 dark:bg-black-50 bg-white-300 rounded-md shadow-custom md:flex-col;
+      .search_skill_match_img {
+        @apply flex justify-center;
+        img {
+          @apply md:max-w-80%;
+        }
+      }
+      .search_skill_match_valuation {
+        @apply flex flex-col gap-1.5 md:items-center;
+        .search_skill_match_num {
+        }
+        .search_skill_match_percentage {
+          @apply text-grass;
+        }
+      }
+    }
+  }
+}

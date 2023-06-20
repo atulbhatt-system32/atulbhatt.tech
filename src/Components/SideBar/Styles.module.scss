@@ -1,0 +1,18 @@
+.sidebar__wrap {
+  @apply flex dark:text-white-900 p-4 px-6 flex-col lg:w-sidebar-large w-sidebar-md border-1;
+  .title {
+    @apply flex font-semibold justify-between items-center;
+    h1 {
+      @apply lg:text-32px text-24px;
+    }
+  }
+  .sidebar_menu {
+    @apply flex flex-col  py-4;
+    div {
+      @apply lg:text-20px text-16px font-bold py-2 cursor-pointer;
+    }
+  }
+  .siderbar_button {
+    @apply text-18px font-medium text-primary-blue-200 border-1.5 border-primary-blue-200 px-4 py-2 rounded-md;
+  }
+}

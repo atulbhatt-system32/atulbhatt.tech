@@ -1,0 +1,24 @@
+.not_found {
+  @apply flex flex-col gap-7 mt-10;
+  .not_found_head {
+    @apply flex justify-center;
+    img {
+      @apply md:w-42% 2xl:w-30%;
+    }
+  }
+  .not_found_body {
+    @apply flex flex-col items-center;
+    p {
+      @apply text-gray-600 font-medium md:text-18px lg:text-20px xl:text-24px;
+      span {
+        @apply text-blue-100 font-bold;
+      }
+    }
+    .not_found_btn {
+      @apply pt-4 md:py-6 lg:py-7 xl:py-8;
+      button {
+        @apply bg-blue-200 text-white-900 py-2.5 px-3 rounded-md capitalize;
+      }
+    }
+  }
+}

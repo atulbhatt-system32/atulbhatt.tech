@@ -1,0 +1,31 @@
+:root {
+  --font-color: #0f0f35;
+  --background-color: #fafafb;
+  --link-color: cornflowerblue;
+}
+
+[data-theme="dark"] {
+  --font-color: #ffffff;
+  --background-color: #333;
+  --link-color: lightblue;
+}
+[data-theme="light"] {
+  --font-color: #0f0f35;
+  --background-color: #ffffff;
+}
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+}
+
+a {
+  color: var(--link-color);
+}
+.toggle-theme input {
+  border: none;
+}
+.dark_mode_checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

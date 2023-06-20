@@ -1,0 +1,19 @@
+.skills {
+  @apply py-6 mx-10 mb-32 xl:mx-24 xl:pb-64 bg-white-300 dark:bg-black-50 border-1 dark:border-none border-solid border-white-100 rounded-md;
+  .skills_wrap {
+    @apply flex flex-col gap-16 xl:gap-28 px-20;
+    .basic_web {
+      @apply flex flex-col gap-6 justify-center items-center xl:justify-start xl:gap-7;
+      .basic_web_head {
+        @apply text-32px font-bold text-center xl:self-start;
+      }
+      .basic_web_body {
+        @apply flex justify-center gap-8 flex-wrap xl:self-start xl:gap-12;
+        .card {
+          @apply flex justify-center text-center text-white-900 items-center text-20px font-bold min-w-214px min-h-64px bg-grass rounded-md xl:min-h-96px;
+          background: linear-gradient(90deg, #ed6ea0 0%, #ec8c69 100%);
+        }
+      }
+    }
+  }
+}

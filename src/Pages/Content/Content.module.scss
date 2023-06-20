@@ -1,0 +1,91 @@
+.content_tab_section {
+  @apply p-4 flex justify-around;
+  .tab {
+    @apply font-bold text-24px md:text-32px;
+  }
+}
+.content_search_section {
+  @apply p-4;
+  .search_body {
+    @apply w-11/12 flex flex-col p-4 bg-black-50 rounded;
+    span {
+      @apply font-bold text-14px sm:text-18px pb-2;
+    }
+    input {
+      @apply w-80% bg-white-900 rounded px-4 py-2 text-12px sm:text-16px font-normal text-black-normal;
+    }
+  }
+}
+
+//podcast styles
+.podcast__wrap {
+  @apply my-4;
+  .podcast_banner {
+    @apply w-full;
+    img {
+      @apply h-podcast-banner sm:h-podcast-banner-sm md:h-podcast-banner-lg lg:h-64;
+    }
+    .banner_mobile {
+      @apply sm:hidden;
+    }
+    .banner_web {
+      @apply sm:flex hidden;
+    }
+  }
+}
+
+// BLOG :
+
+.blog_section {
+  @apply p-8 flex flex-wrap gap-8;
+  .card__wrap {
+    @apply md:max-w-45% lg:max-w-31%;
+    .card {
+      @apply flex flex-col gap-4;
+      .card_aside {
+        .card_figure {
+          img {
+            @apply w-100%;
+          }
+        }
+      }
+      .card_content {
+        @apply bg-white-900 rounded px-6 py-6;
+        .card_header {
+          @apply pb-4;
+          .card_title {
+            @apply text-24px font-bold not-italic text-black-normal;
+          }
+        }
+        .card_body {
+          @apply pb-8;
+          .card_copy {
+            @apply text-black-normal text-14px leading-relaxed max-w-280px;
+          }
+        }
+        .card_tag {
+          @apply text-primary-blue-600 pb-6 text-14px leading-relaxed font-normal font-bold max-w-280px;
+        }
+        .card_footer {
+          @apply flex gap-10;
+          .card_watched {
+            @apply flex gap-2;
+            img {
+            }
+            span {
+              @apply text-black-normal text-14px font-normal;
+            }
+          }
+          .card_liked {
+            @apply flex gap-2;
+            img {
+            }
+            span {
+              @apply text-black-normal text-14px font-normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}

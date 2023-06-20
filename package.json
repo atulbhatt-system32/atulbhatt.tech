@@ -1,7 +1,8 @@
 {
   "name": "atul-portfolio",
-  "version": "0.1.0",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,24 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "autoprefixer": "^10.4.8",
-    "axios": "^0.27.2",
-    "lodash": "^4.17.21",
-    "postcss": "^8.4.23",
-    "postcss-cli": "^10.0.0",
-    "pure-react-carousel": "^1.28.1",
+    "autoprefixer": "^10.4.14",
+    "axios": "^1.4.0",
+    "postcss": "^8.4.24",
     "react": "^18.2.0",
-    "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
-    "react-responsive-modal": "^6.2.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.1",
+    "react-icons": "^4.9.0",
+    "react-router-dom": "^6.13.0",
     "react-slick": "^0.29.0",
     "react-tilt": "^1.0.2",
     "sass": "^1.63.4",
     "slick-carousel": "^1.8.1",
-    "web-vitals": "^2.1.4"
+    "tailwindcss": "^3.3.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

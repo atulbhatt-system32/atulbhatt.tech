@@ -1,4 +1,3 @@
-import React from "react";
 import { Header } from "../../Components";
 import error from "../../Assets/images/notFound/error.svg";
 import styles from "./NotFound.module.scss";
@@ -16,7 +15,7 @@ const NotFound = () => {
           <p>
             JOJO try to fix things... <span>Say hi to JOJO</span> 👋
           </p>
-          <p>Don't worry there is a way to go back home!</p>
+          <p>Don&apos;t worry there is a way to go back home!</p>
           <div className={styles.not_found_btn}>
             <button onClick={() => navigate("/")}>Back to home </button>
           </div>

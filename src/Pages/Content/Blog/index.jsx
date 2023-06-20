@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "../Content.module.scss";
-import Heart from "../../../Assets/images/blogs/heart.svg";
+import heart from "../../../Assets/images/blogs/heart.svg";
 import { Card } from "../../../Components";
 import axios from "axios";
 const Blog = () => {
@@ -57,7 +57,7 @@ const Blog = () => {
                     <span>{item.reading_time_minutes} min read</span>
                   </div>
                   <div className={styles.card_liked}>
-                    <img src={Heart} alt="liked" />
+                    <img src={heart} alt="liked" />
                     <span>{item.like} Likes</span>
                   </div>
                 </div>

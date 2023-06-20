@@ -1,7 +1,5 @@
-import { React, useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import styles from "../Content.module.scss";
-// import { Watched, Heart } from "../../../Assets/images";
-import Watched from "../../../Assets/images/blogs/watched.svg";
 import Heart from "../../../Assets/images/blogs/heart.svg";
 import { Card } from "../../../Components";
 import axios from "axios";
@@ -55,7 +53,7 @@ const Blog = () => {
                 </div>
                 <div className={styles.card_footer}>
                   <div className={styles.card_watched}>
-                    <img src={Watched} alt="watched" />
+                    <img src="/watched.svg" alt="watched" />
                     <span>{item.reading_time_minutes} min read</span>
                   </div>
                   <div className={styles.card_liked}>

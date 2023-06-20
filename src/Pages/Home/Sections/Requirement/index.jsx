@@ -1,5 +1,5 @@
 import Container from "../../../../Components/Container";
-import Cursor from "../../../../Assets/images/home/cursor.svg";
+import Cursor from "../../../../assets/images/home/cursor.svg";
 import styles from "../../Home.module.scss";
 import { useNavigate } from "react-router-dom";
 const Requirement = () => {

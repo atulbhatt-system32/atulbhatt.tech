@@ -1,6 +1,6 @@
 import styles from "../../Home.module.scss";
 import { Container, Button } from "../../../../Components";
-import QueryImg from "../../../../Assets/images/home/query.svg";
+import QueryImg from "../../../../assets/images/home/query.svg";
 const Query = () => {
   return (
     <section className={styles.query}>

@@ -154,13 +154,13 @@ const projects = [
     color: "#ffbd00",
     thumbnail: "https://i.ibb.co/GHZ2VKZ/weareunder.png",
   },
-  {
-    id: 8,
-    name: "Rainbow Company",
-    url: "https://rnbw.company/",
-    color: "#ffbd00",
-    thumbnail: "https://i.ibb.co/X2gmPpD/rnbw-company.png",
-  },
+  // {
+  //   id: 8,
+  //   name: "Rainbow Company",
+  //   url: "https://rnbw.company/",
+  //   color: "#ffbd00",
+  //   thumbnail: "https://i.ibb.co/X2gmPpD/rnbw-company.png",
+  // },
   {
     id: 9,
     name: "StoryTeller",
@@ -168,20 +168,20 @@ const projects = [
     color: "#7167FB",
     thumbnail: "https://i.ibb.co/rbsWCkc/story-teller.png",
   },
-  {
-    id: 10,
-    name: "Rainbow Design Tool",
-    url: "https://rnbw.dev/",
-    color: "#e111be",
-    thumbnail: "https://i.ibb.co/ykyDgTv/rnbw-dev.png",
-  },
-  {
-    id: 11,
-    name: "Raincons",
-    url: "https://raincons.rnbw.dev/",
-    color: "#ff5151",
-    thumbnail: "https://i.ibb.co/fqLQbNt/Raincons.png",
-  },
+  // {
+  //   id: 10,
+  //   name: "Rainbow Design Tool",
+  //   url: "https://rnbw.dev/",
+  //   color: "#e111be",
+  //   thumbnail: "https://i.ibb.co/ykyDgTv/rnbw-dev.png",
+  // },
+  // {
+  //   id: 11,
+  //   name: "Raincons",
+  //   url: "https://raincons.rnbw.dev/",
+  //   color: "#ff5151",
+  //   thumbnail: "https://i.ibb.co/fqLQbNt/Raincons.png",
+  // },
 ];
 
 const routes = {
